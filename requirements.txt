@@ -1,0 +1,6 @@
+# Core dependencies for Crowdin upload script
+crowdin-api-client>=1.13.0
+PyYAML>=6.0.1
+
+# Optional (recommended for better console formatting)
+requests>=2.31.0
