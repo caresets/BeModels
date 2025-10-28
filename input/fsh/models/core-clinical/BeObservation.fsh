@@ -17,6 +17,7 @@ Id: be-model-observation
 * performer 0..1 Reference "The professional that performed the observation"
 * patient 1..1 Reference "The patient that this observation is about"
   * ^code[+] = BeSafeShareGlossary#patient
+  * ^code[+] = http://snomed.info/sct#410604004
   
 //* focus 0..1 Reference "The actual focus of an observation when it is not the patient of record"
 * request 0..1 Reference "The request that this observation is fulfilling"
@@ -46,4 +47,5 @@ Description: "Body site model"
 Id: be-model-bodysite
 * bodyLocation 0..1 CodeableConcept "Code that identifies the anatomical location of the specimen on the subject's body"
 * bodyLaterality 0..1 CodeableConcept "The laterality of a body site - the side of the body"
+
 * bodyTopography 0..1 CodeableConcept "The topography of the location of the specimen on the subject's body"
