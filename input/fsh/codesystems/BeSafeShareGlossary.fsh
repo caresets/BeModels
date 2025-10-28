@@ -7,5 +7,5 @@ Description: "This code system defines concepts used in the BeSafe CareSets for 
 * ^caseSensitive = false
 * #careset-business-identifier "Business Identifier of the careset"
 * #recorded-date "Date the record was first created in the system"
-* #recorder "Person who recorded the immunization information"
-* #patient "The patient"
+* #recorder "Person who recorded the information"
+* #patient "The patient that is the subject of the record"
