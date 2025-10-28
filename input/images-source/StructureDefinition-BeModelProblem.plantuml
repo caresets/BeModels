@@ -1,0 +1,27 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelProblem**" as BeModelProblem {
+  |_ identifier 1..1   
+  |_ recordedDate 1..1   
+  |_ recorder 1..1   
+  |_ asserter 0..1   
+  |_ subject 1..1   
+  |_ cause 0..1   
+  |_ category 0..*   
+  |_ code 1..1   
+  |_ clinicalStatus 1..1   
+  |_ verificationStatus 0..1   
+  |_ diseaseCourse 0..1   
+  |_ symptom 0..*   
+  |_ severity 0..1   
+  |_ bodySite 0..*   
+    |_ localisation 1..1   
+    |_ laterality 0..1   
+  |_ onset[x] 0..1   
+  |_ abatement[x] 0..1   
+  |_ note 0..*   
+}
+@enduml

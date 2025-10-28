@@ -1,0 +1,32 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelObservation**" as BeModelObservation {
+  |_ identifier 1..*   
+  |_ recordedDate 1..1   
+  |_ observationDate[x] 1..1   
+  |_ recorder 1..1   
+  |_ performer 0..1   
+  |_ patient 1..1   
+  |_ request 0..1   
+  |_ partOfProcedure 0..*   
+  |_ specimen 0..1   
+  |_ device 0..1   
+  |_ category 0..*   
+  |_ code 1..1   
+  |_ value[x] 0..1   
+  |_ component 0..*   
+    |_ code 1..1   
+    |_ value[x] 0..1   
+  |_ status 1..1   
+  |_ interpretation 0..*   
+  |_ referenceRange 0..*   
+    |_ low 0..1   
+    |_ high 0..1   
+  |_ bodySite 0..1   
+  |_ certainty 0..1   
+  |_ note 0..*   
+}
+@enduml

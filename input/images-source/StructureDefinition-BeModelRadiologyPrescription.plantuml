@@ -1,0 +1,18 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelRadiologyPrescription**" as BeModelRadiologyPrescription {
+  |_ priority 1..1   
+  |_ priorityReason 0..1   
+  |_ additionalInfo 0..*   
+  |_ previousExams 0..*   
+  |_ pssInfo 0..1   
+  |_ indication 0..*   
+  |_ explanationForRequest 0..1   
+  |_ bodySite 0..*   
+  |_ bodyLaterality 0..1   
+  |_ pssIdentifier 0..*   
+}
+@enduml

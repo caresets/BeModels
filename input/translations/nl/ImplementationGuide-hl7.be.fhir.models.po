@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FHIR\n"
 "Report-Msgid-Bugs-To: you@example.com\n"
-"POT-Creation-Date: 2025-10-21 10:40+0000\n"
-"PO-Revision-Date: 2025-10-21 10:40+0000\n"
-"Language: FR\n"
+"POT-Creation-Date: 2025-10-21 10:47+0000\n"
+"PO-Revision-Date: 2025-10-21 10:47+0000\n"
+"Language: NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,62 +17,62 @@ msgstr "BeModels"
 # A short, descriptive, user-friendly title for the implementation guide.
 #: ImplementationGuide.title
 msgid "CareSets - data models"
-msgstr "CareSets - modèles de données"
+msgstr "CareSets - gegevensmodellen"
 
 # The name of the organization or individual that published the implementation guide.
 #: ImplementationGuide.publisher
 msgid "RIZIV/INAMI"
-msgstr "RISQUE/INAMI"
+msgstr "RISICO/INAMI"
 
 # The name of an individual to contact.
 #: ContactDetail.name
 msgid "RIZIV/INAMI"
-msgstr "RISQUE/INAMI"
+msgstr "RISICO/INAMI"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeModelAnnex81"
-msgstr "BeModelAnnex81"
+msgstr "ModelAnnex81"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Logical model describing the model for the Annex81 proposal and approval"
-msgstr "Modèle logique décrivant le modèle de proposition et d'approbation de l'annexe 81"
+msgstr "Logisch model dat het model voor het voorstel en de goedkeuring van bijlage81 beschrijft"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeModelAssignment"
-msgstr "Affectation d'un modèle"
+msgstr "BeModelAssignment"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Logical model with the information for the assignment to a referral prescription of a care provider."
-msgstr "Modèle logique contenant les informations relatives à l'affectation à une prescription de référence d'un prestataire de soins."
+msgstr "Logisch model met de informatie voor de toewijzing aan een verwijzingsrecept van een zorgverlener."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeModelNursingPrescription"
-msgstr "Ordonnance infirmière modèle"
+msgstr "BeModelNursingPrescription"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Data model for the nursing prescription referral."
-msgstr "Modèle de données pour l'orientation des prescriptions infirmières."
+msgstr "Gegevensmodel voor de verpleegkundige voorschriftverwijzing."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeModelOrganisationClaim"
-msgstr "BeModelOrganisationClaim (revendication de modèle d'organisation)"
+msgstr "BeModelOrganisationClaim"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Information of a claim of an organisation to have the prescription fulfilled."
-msgstr "Information sur la demande d'une organisation pour que la prescription soit exécutée."
+msgstr "Informatie over een claim van een organisatie om aan het recept te voldoen."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeModelRadiologyPrescription"
-msgstr "Modèle de prescription pour la radiologie"
+msgstr "BeModelRadiologieVoorschrift"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
@@ -82,94 +82,94 @@ msgstr "BeModelReferralPrescription"
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Data model for the prescription referral."
-msgstr "Modèle de données pour l'orientation des prescriptions."
+msgstr "Gegevensmodel voor verwijzingen naar recepten."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeModelTreatmentStatus"
-msgstr "État du traitement du modèle BeModel"
+msgstr "BeModelTreatmentStatus"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Logical model with the information for the status of the treatment."
-msgstr "Modèle logique contenant des informations sur l'état du traitement."
+msgstr "Logisch model met informatie over de status van de behandeling."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BeObservation Model"
-msgstr "Modèle BeObservation"
+msgstr "Model BeObservation"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Observation logical model"
-msgstr "Modèle logique d'observation"
+msgstr "Waarneming logisch model"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "BodySite Model"
-msgstr "Modèle BodySite"
+msgstr "BodySite Model"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Body site model"
-msgstr "Modèle de site corporel"
+msgstr "Model lichaamslocatie"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "CodeSystem for common CareSets glossary"
-msgstr "CodeSystem pour le glossaire des ensembles de soins communs"
+msgstr "CodeSysteem voor gemeenschappelijke CareSets woordenlijst"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "This code system defines concepts used in the BeSafe CareSets for common glossary terms."
-msgstr "Ce système de codes définit les concepts utilisés dans les ensembles de soins BeSafe pour les termes du glossaire commun."
+msgstr "Dit codesysteem definieert concepten die worden gebruikt in de BeSafe CareSets voor algemene termen."
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Condition Disease Course Value Set"
-msgstr "Condition Maladie Cours Ensemble de valeurs"
+msgstr "Conditie Ziekte Cursus Waardeset"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Condition Disease Course"
-msgstr "Cours sur l'état de santé et les maladies"
+msgstr "Conditie Ziekte Cursus"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Problem Category Value Set"
-msgstr "Catégorie de problème Ensemble de valeurs"
+msgstr "Probleemcategorie Waardeset"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Category of the problem"
-msgstr "Catégorie du problème"
+msgstr "Categorie van het probleem"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Problem Code Value Set"
-msgstr "Code de problème Ensemble de valeurs"
+msgstr "Probleemcode Waardeset"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Code of the problem"
-msgstr "Code du problème"
+msgstr "Code van het probleem"
 
 # A human assigned name for the resource. All resources SHOULD have a name, but the name may be extracted from the resource (e.g. ValueSet.name).
 #: ImplementationGuide.definition.resource.name
 msgid "Problem Logical Model"
-msgstr "Problème Modèle logique"
+msgstr "Probleem Logisch Model"
 
 # A description of the reason that a resource has been included in the implementation guide.
 #: ImplementationGuide.definition.resource.description
 msgid "Logical model for Problem"
-msgstr "Modèle logique du problème"
+msgstr "Logisch model voor probleem"
 
 # A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
 #: ImplementationGuide.definition.page.title
 msgid "Table of Contents"
-msgstr "Table des matières"
+msgstr "Inhoudsopgave"
 
 # A short title used to represent this page in navigational structures such as table of contents, bread crumbs, etc.
 #: ImplementationGuide.definition.page.title
 msgid "Home"
-msgstr "Accueil"
+msgstr "Home"

@@ -1,0 +1,22 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelAnnex81**" as BeModelAnnex81 {
+  |_ identifier 1..1   
+  |_ shortCode 1..1   
+  |_ recordedDate 1..1   
+  |_ creationDate 1..1   
+  |_ author 1..1   
+  |_ status 1..1   
+  |_ statusReason 0..1   
+  |_ careRequested 1..1   
+  |_ patient 1..1   
+  |_ originRequestId 0..1   
+  |_ validationStartDate 1..1   
+  |_ validationEndDate 1..1   
+  |_ problem 0..*   
+  |_ feedbackNeeded 1..1   
+}
+@enduml

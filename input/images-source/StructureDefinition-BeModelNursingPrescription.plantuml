@@ -1,0 +1,12 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelNursingPrescription**" as BeModelNursingPrescription {
+  |_ feedbackNeeded 1..1   
+  |_ generalRemarks 0..*   
+  |_ contraIndications 0..1   
+  |_ medicalReason 0..1   
+}
+@enduml

@@ -1,0 +1,45 @@
+# A natural language name identifying the value set. This name should be usable as an identifier for the module by machine processing applications such as code generation.
+msgid ""
+msgstr ""
+"Project-Id-Version: FHIR\n"
+"Report-Msgid-Bugs-To: you@example.com\n"
+"POT-Creation-Date: 2025-10-21 10:43+0000\n"
+"PO-Revision-Date: 2025-10-21 10:43+0000\n"
+"Language: FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ValueSet.name
+msgid "ProblemDiseaseCourseVS"
+msgstr "ProblèmeMaladieCoursVS"
+
+# A short, descriptive, user-friendly title for the value set.
+#: ValueSet.title
+msgid "Condition Disease Course Value Set"
+msgstr "Condition Maladie Cours Ensemble de valeurs"
+
+# The name of the organization or individual that published the value set.
+#: ValueSet.publisher
+msgid "RIZIV/INAMI"
+msgstr "RISQUE/INAMI"
+
+# The name of an individual to contact.
+#: ContactDetail.name
+msgid "RIZIV/INAMI"
+msgstr "RISQUE/INAMI"
+
+# A free text natural language description of the value set from a consumer's perspective. The textual description specifies the span of meanings for concepts to be included within the Value Set Expansion, and also may specify the intended use and limitations of the Value Set.
+#: ValueSet.description
+msgid "Condition Disease Course"
+msgstr "Cours sur l'état de santé et les maladies"
+
+# The version of the code system that the codes are selected from, or the special version '*' for all versions.
+#: ValueSet.compose.include.version
+msgid "http://snomed.info/sct/11000172109"
+msgstr "http://snomed.info/sct/11000172109"
+
+# The match value may be either a code defined by the system, or a string value, which is a regex match on the literal string of the property value  (if the filter represents a property defined in CodeSystem) or of the system filter value (if the filter represents a filter defined in CodeSystem) when the operation is 'regex', or one of the values (true and false), when the operation is 'exists'.
+#: ValueSet.compose.include.filter.value
+msgid "288524001"
+msgstr "288524001"

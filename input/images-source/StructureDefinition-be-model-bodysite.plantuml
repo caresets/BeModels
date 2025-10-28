@@ -1,0 +1,11 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelBodySite**" as BeModelBodySite {
+  |_ bodyLocation 0..1   
+  |_ bodyLaterality 0..1   
+  |_ bodyTopography 0..1   
+}
+@enduml

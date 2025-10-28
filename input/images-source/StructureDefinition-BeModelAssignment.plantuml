@@ -1,0 +1,21 @@
+@startuml
+skinparam linetype polyline
+hide circle
+hide stereotype
+
+class "**BeModelAssignment**" as BeModelAssignment {
+  |_ identifier 1..1   
+  |_ intent 1..1   
+  |_ status 1..1   
+  |_ statusReason 0..1   
+  |_ originRequestId 1..1   
+  |_ treatmentStatusId 1..1   
+  |_ organizationID 0..1   
+  |_ performer 1..*   
+    |_ role 1..1   
+    |_ actor 0..1   
+    |_ organisation 0..1   
+    |_ startdate 0..1   
+    |_ endDate 0..1   
+}
+@enduml
