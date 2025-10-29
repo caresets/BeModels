@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ProblemDiseaseCourseVS"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet ProblemDiseaseCourseVS</b></p><a name="ProblemDiseaseCourseVS"> </a><a name="hcProblemDiseaseCourseVS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/11000172109"> version &#x1F4CD;</span> where concept  is-a 288524001</li></ul></div><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : EnsembleValeurs ProblemDiseaseCourseVS</b></p><a name="fr-ProblemDiseaseCourseVS"> </a><a name="fr-hcProblemDiseaseCourseVS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : en</p></div><ul><li>Include codes provenant de<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/11000172109"> version &#x1F4CD;</span> où concept  is-a 288524001</li></ul></div><div xml:lang="nl" lang="nl"><hr/><p><b>Dutch</b></p><hr/><p class="res-header-id"><b>Gegenereerde narrative: ValueSet ProblemDiseaseCourseVS</b></p><a name="nl-ProblemDiseaseCourseVS"> </a><a name="nl-hcProblemDiseaseCourseVS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Taal: en</p></div><ul><li>Include codes uit<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/11000172109"> versie &#x1F4CD;</span> waar concept  is-a 288524001</li></ul></div><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet ProblemDiseaseCourseVS</b></p><a name="de-ProblemDiseaseCourseVS"> </a><a name="de-hcProblemDiseaseCourseVS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><ul><li>Include codes from<a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is explicitly stated to be http://snomed.info/sct/11000172109"> version &#x1F4CD;</span> where concept  is-a 288524001</li></ul></div></div>
+  </text>
+  <url value="http://example.org/ValueSet/ProblemDiseaseCourseVS"/>
+  <version value="0.1.0"/>
+  <name value="ProblemDiseaseCourseVS">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+      </extension>
+    </extension>
+  </name>
+  <title value="Condition Disease Course Value Set">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Condition Maladie Cours Ensemble de valeurs"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Conditie Ziekte Cursus Waardeset"/>
+      </extension>
+    </extension>
+  </title>
+  <status value="draft"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RIZIV/INAMI">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="RISQUE/INAMI"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="RISICO/INAMI"/>
+      </extension>
+    </extension>
+  </publisher>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Condition Disease Course">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Cours sur l'état de santé et les maladies"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Conditie Ziekte Cursus"/>
+      </extension>
+    </extension>
+  </description>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/11000172109">
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="nl"/>
+          </extension>
+          <extension url="content">
+            <valueString value="http://snomed.info/sct/11000172109"/>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+          <extension url="lang">
+            <valueCode value="fr"/>
+          </extension>
+          <extension url="content">
+            <valueString value="http://snomed.info/sct/11000172109"/>
+          </extension>
+        </extension>
+      </version>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="288524001">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="288524001"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="288524001"/>
+            </extension>
+          </extension>
+        </value>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,38 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProblemCategoryVS",
+      "title" : "Problem Category Value Set",
+      "description" : "Category of the problem",
+      "uses" : {
+      },
+      "StructureDefinition-BeModelProblem.html" : "Problem Logical Model"
+    },
+    {
+      "url" : "http://example.org/ValueSet/ProblemCodeVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProblemCodeVS",
+      "title" : "Problem Code Value Set",
+      "description" : "Code of the problem",
+      "uses" : {
+      },
+      "StructureDefinition-BeModelProblem.html" : "Problem Logical Model"
+    },
+    {
+      "url" : "http://example.org/ValueSet/ProblemDiseaseCourseVS",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProblemDiseaseCourseVS",
+      "title" : "Condition Disease Course Value Set",
+      "description" : "Condition Disease Course",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-BeModelProblem.html" : "Problem Logical Model"
+    }
+  ]
+}

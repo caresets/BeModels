@@ -1,0 +1,878 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "8341b85b-ad4e-46a4-90eb-6181a5383efd",
+  "meta" : {
+    "lastUpdated" : "2025-10-29T07:49:40.230+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.org/ValueSet/ProblemCategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCategoryVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Category Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcategorie Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Catégorie de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:409ce0f3-ab98-4954-8da6-52f1b3f49f56",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCategoryVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Category Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcategorie Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Catégorie de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:409ce0f3-ab98-4954-8da6-52f1b3f49f56",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>Ce jeu de valeur (ValueSet) contient 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCategoryVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Category Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcategorie Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Catégorie de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:cb4709d2-e1e0-4928-9186-dc8efd992219",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "fr"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>Deze waardelijst bevat 0 concepten</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Systeem</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Weergave (en)</b> - English (English, en)</td><td><b>Json</b></td><td><b>Xml</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCategoryVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Category Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcategorie Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Catégorie de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f2bd6b72-beda-41f5-b250-d5131108ba5a",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "nl"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCategoryVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Category Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcategorie Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Catégorie de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:49e44a07-9ccc-4d4a-b800-79768e9600c8",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCodeVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCodeVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Code Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Code de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcode Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f6c9e5a9-80e3-43e0-bbb6-5b68ce5804ca",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCodeVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCodeVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Code Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Code de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcode Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:f6c9e5a9-80e3-43e0-bbb6-5b68ce5804ca",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>Ce jeu de valeur (ValueSet) contient 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCodeVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCodeVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Code Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Code de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcode Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:747d52a7-4ccb-432e-a0db-07695fd6098f",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "fr"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>Deze waardelijst bevat 0 concepten</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Systeem</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Weergave (en)</b> - English (English, en)</td><td><b>Json</b></td><td><b>Xml</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCodeVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCodeVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Code Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Code de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcode Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:9431960d-9841-400f-83df-76978ad3eee0",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "nl"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://example.org/ValueSet/ProblemCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b> - English (English, en)</td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "http://example.org/ValueSet/ProblemCodeVS",
+      "version" : "0.1.0",
+      "name" : "ProblemCodeVS",
+      "_name" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "title" : "Problem Code Value Set",
+      "_title" : {
+        "extension" : [{
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "fr"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Code de problème Ensemble de valeurs"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        },
+        {
+          "extension" : [{
+            "url" : "lang",
+            "valueCode" : "nl"
+          },
+          {
+            "url" : "content",
+            "valueString" : "Probleemcode Waardeset"
+          }],
+          "url" : "http://hl7.org/fhir/StructureDefinition/translation"
+        }]
+      },
+      "status" : "draft",
+      "date" : "2025-10-29T07:49:40+00:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:16f5e07e-862f-4e08-8719-e05b27af0997",
+        "timestamp" : "2025-10-29T07:50:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "de"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  }]
+}

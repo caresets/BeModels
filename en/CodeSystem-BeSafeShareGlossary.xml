@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BeSafeShareGlossary"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem BeSafeShareGlossary</b></p><a name="BeSafeShareGlossary"> </a><a name="hcBeSafeShareGlossary"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profiles: <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem</code>, <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem</code></p></div><p>This case-insensitive code system <code>http://example.org/CodeSystem/BeSafeShareGlossary</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">careset-business-identifier<a name="BeSafeShareGlossary-careset-business-identifier"> </a></td><td>Business Identifier of the careset</td></tr><tr><td style="white-space:nowrap">recorded-date<a name="BeSafeShareGlossary-recorded-date"> </a></td><td>Date the record was first created in the system</td></tr><tr><td style="white-space:nowrap">recorder<a name="BeSafeShareGlossary-recorder"> </a></td><td>Person who recorded the information</td></tr><tr><td style="white-space:nowrap">patient<a name="BeSafeShareGlossary-patient"> </a></td><td>The patient that is the subject of the record</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td><td><b>Nederlands (Dutch, nl)</b></td></tr><tr><td>careset-business-identifier</td><td>Identifiant d'entreprise de l'ensemble de soins</td><td>Bedrijfsidentificatie van de zorgset</td></tr><tr><td>recorded-date</td><td>Date de création de l'enregistrement dans le système</td><td>Datum waarop het record voor het eerst is aangemaakt in het systeem</td></tr><tr><td>recorder</td><td/><td/></tr><tr><td>patient</td><td/><td/></tr></table></div>
+  </text>
+  <url value="http://example.org/CodeSystem/BeSafeShareGlossary"/>
+  <version value="0.1.0"/>
+  <name value="BeSafeShareGlossary"/>
+  <title value="CodeSystem for common CareSets glossary"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RIZIV/INAMI"/>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="This code system defines concepts used in the BeSafe CareSets for common glossary terms."/>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="careset-business-identifier"/>
+    <display value="Business Identifier of the careset"/>
+    <designation>
+      <language value="nl"/>
+      <value value="Bedrijfsidentificatie van de zorgset"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Identifiant d'entreprise de l'ensemble de soins"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="recorded-date"/>
+    <display value="Date the record was first created in the system"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Date de création de l'enregistrement dans le système"/>
+    </designation>
+    <designation>
+      <language value="nl"/>
+      <value value="Datum waarop het record voor het eerst is aangemaakt in het systeem"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="recorder"/>
+    <display value="Person who recorded the information"/>
+  </concept>
+  <concept>
+    <code value="patient"/>
+    <display value="The patient that is the subject of the record"/>
+  </concept>
+</CodeSystem>

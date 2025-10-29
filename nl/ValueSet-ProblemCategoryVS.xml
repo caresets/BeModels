@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ProblemCategoryVS"/>
+  <language value="nl"/>
+  <text>
+    <status value="generated"/><div xml:lang="nl" lang="nl"><hr/><p><b>Dutch</b></p><hr/><p class="res-header-id"><b>Gegenereerde narrative: ValueSet ProblemCategoryVS</b></p><a name="nl-ProblemCategoryVS"> </a><a name="nl-hcProblemCategoryVS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Taal: en</p></div><p>Deze waardelijst includeert codes gebaseerd op de volgende regels:</p><ul/></div>
+  </text>
+  <url value="http://example.org/ValueSet/ProblemCategoryVS"/>
+  <version value="0.1.0"/>
+  <name value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+  <title value="Probleemcategorie Waardeset"/>
+  <status value="draft"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RISICO/INAMI"/>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Categorie van het probleem"/>
+</ValueSet>

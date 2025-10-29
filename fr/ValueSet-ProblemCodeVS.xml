@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ProblemCodeVS"/>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : EnsembleValeurs ProblemCodeVS</b></p><a name="fr-ProblemCodeVS"> </a><a name="fr-hcProblemCodeVS"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : en</p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul/></div>
+  </text>
+  <url value="http://example.org/ValueSet/ProblemCodeVS"/>
+  <version value="0.1.0"/>
+  <name value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+  <title value="Code de problème Ensemble de valeurs"/>
+  <status value="draft"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RISQUE/INAMI"/>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Code du problème"/>
+</ValueSet>

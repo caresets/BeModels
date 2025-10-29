@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="BeSafeShareGlossary"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem BeSafeShareGlossary</b></p><a name="BeSafeShareGlossary"> </a><a name="hcBeSafeShareGlossary"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profiles: <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem</code>, <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem</code></p></div><p>This case-insensitive code system <code>http://example.org/CodeSystem/BeSafeShareGlossary</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">careset-business-identifier<a name="BeSafeShareGlossary-careset-business-identifier"> </a></td><td>Business Identifier of the careset</td></tr><tr><td style="white-space:nowrap">recorded-date<a name="BeSafeShareGlossary-recorded-date"> </a></td><td>Date the record was first created in the system</td></tr><tr><td style="white-space:nowrap">recorder<a name="BeSafeShareGlossary-recorder"> </a></td><td>Person who recorded the information</td></tr><tr><td style="white-space:nowrap">patient<a name="BeSafeShareGlossary-patient"> </a></td><td>The patient that is the subject of the record</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td><td><b>Nederlands (Dutch, nl)</b></td></tr><tr><td>careset-business-identifier</td><td>Identifiant d'entreprise de l'ensemble de soins</td><td>Bedrijfsidentificatie van de zorgset</td></tr><tr><td>recorded-date</td><td>Date de création de l'enregistrement dans le système</td><td>Datum waarop het record voor het eerst is aangemaakt in het systeem</td></tr><tr><td>recorder</td><td/><td/></tr><tr><td>patient</td><td/><td/></tr></table></div><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : CodeSystem BeSafeShareGlossary</b></p><a name="fr-BeSafeShareGlossary"> </a><a name="fr-hcBeSafeShareGlossary"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : en</p><p style="margin-bottom: 0px">Profils: <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem</code>, <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem</code></p></div><p>This case-insensitive code system <code>http://example.org/CodeSystem/BeSafeShareGlossary</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">careset-business-identifier<a name="fr-BeSafeShareGlossary-careset-business-identifier"> </a></td><td>Business Identifier of the careset</td></tr><tr><td style="white-space:nowrap">recorded-date<a name="fr-BeSafeShareGlossary-recorded-date"> </a></td><td>Date the record was first created in the system</td></tr><tr><td style="white-space:nowrap">recorder<a name="fr-BeSafeShareGlossary-recorder"> </a></td><td>Person who recorded the information</td></tr><tr><td style="white-space:nowrap">patient<a name="fr-BeSafeShareGlossary-patient"> </a></td><td>The patient that is the subject of the record</td></tr></table><p><b>Affichages en langues supplémentaires</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td><td><b>Nederlands (Dutch, nl)</b></td></tr><tr><td>careset-business-identifier</td><td>Identifiant d'entreprise de l'ensemble de soins</td><td>Bedrijfsidentificatie van de zorgset</td></tr><tr><td>recorded-date</td><td>Date de création de l'enregistrement dans le système</td><td>Datum waarop het record voor het eerst is aangemaakt in het systeem</td></tr><tr><td>recorder</td><td/><td/></tr><tr><td>patient</td><td/><td/></tr></table></div><div xml:lang="nl" lang="nl"><hr/><p><b>Dutch</b></p><hr/><p class="res-header-id"><b>Gegenereerde narrative: CodeSystem BeSafeShareGlossary</b></p><a name="nl-BeSafeShareGlossary"> </a><a name="nl-hcBeSafeShareGlossary"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Taal: en</p><p style="margin-bottom: 0px">Profiels: <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem</code>, <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem</code></p></div><p>Dit case-insensitive codesysteem <code>http://example.org/CodeSystem/BeSafeShareGlossary</code> definieert de volgende codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Weergave</b></td></tr><tr><td style="white-space:nowrap">careset-business-identifier<a name="nl-BeSafeShareGlossary-careset-business-identifier"> </a></td><td>Business Identifier of the careset</td></tr><tr><td style="white-space:nowrap">recorded-date<a name="nl-BeSafeShareGlossary-recorded-date"> </a></td><td>Date the record was first created in the system</td></tr><tr><td style="white-space:nowrap">recorder<a name="nl-BeSafeShareGlossary-recorder"> </a></td><td>Person who recorded the information</td></tr><tr><td style="white-space:nowrap">patient<a name="nl-BeSafeShareGlossary-patient"> </a></td><td>The patient that is the subject of the record</td></tr></table><p><b>Additionele taalweergaven</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td><td><b>Nederlands (Dutch, nl)</b></td></tr><tr><td>careset-business-identifier</td><td>Identifiant d'entreprise de l'ensemble de soins</td><td>Bedrijfsidentificatie van de zorgset</td></tr><tr><td>recorded-date</td><td>Date de création de l'enregistrement dans le système</td><td>Datum waarop het record voor het eerst is aangemaakt in het systeem</td></tr><tr><td>recorder</td><td/><td/></tr><tr><td>patient</td><td/><td/></tr></table></div><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: CodeSystem BeSafeShareGlossary</b></p><a name="de-BeSafeShareGlossary"> </a><a name="de-hcBeSafeShareGlossary"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p><p style="margin-bottom: 0px">Profiles: <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem</code>, <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem</code></p></div><p>This case-insensitive code system <code>http://example.org/CodeSystem/BeSafeShareGlossary</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">careset-business-identifier<a name="de-BeSafeShareGlossary-careset-business-identifier"> </a></td><td>Business Identifier of the careset</td></tr><tr><td style="white-space:nowrap">recorded-date<a name="de-BeSafeShareGlossary-recorded-date"> </a></td><td>Date the record was first created in the system</td></tr><tr><td style="white-space:nowrap">recorder<a name="de-BeSafeShareGlossary-recorder"> </a></td><td>Person who recorded the information</td></tr><tr><td style="white-space:nowrap">patient<a name="de-BeSafeShareGlossary-patient"> </a></td><td>The patient that is the subject of the record</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (fr)</b></td><td><b>Nederlands (Dutch, nl)</b></td></tr><tr><td>careset-business-identifier</td><td>Identifiant d'entreprise de l'ensemble de soins</td><td>Bedrijfsidentificatie van de zorgset</td></tr><tr><td>recorded-date</td><td>Date de création de l'enregistrement dans le système</td><td>Datum waarop het record voor het eerst is aangemaakt in het systeem</td></tr><tr><td>recorder</td><td/><td/></tr><tr><td>patient</td><td/><td/></tr></table></div></div>
+  </text>
+  <url value="http://example.org/CodeSystem/BeSafeShareGlossary"/>
+  <version value="0.1.0"/>
+  <name value="BeSafeShareGlossary">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:40+0000\nPO-Revision-Date: 2025-10-21 10:40+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:47+0000\nPO-Revision-Date: 2025-10-21 10:47+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+      </extension>
+    </extension>
+  </name>
+  <title value="CodeSystem for common CareSets glossary">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="CodeSysteem voor gemeenschappelijke CareSets woordenlijst"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="CodeSystem pour le glossaire des ensembles de soins communs"/>
+      </extension>
+    </extension>
+  </title>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RIZIV/INAMI">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="RISQUE/INAMI"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="RISICO/INAMI"/>
+      </extension>
+    </extension>
+  </publisher>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="This code system defines concepts used in the BeSafe CareSets for common glossary terms.">
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="fr"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Ce système de codes définit les concepts utilisés dans les ensembles de soins BeSafe pour les termes du glossaire commun."/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+      <extension url="lang">
+        <valueCode value="nl"/>
+      </extension>
+      <extension url="content">
+        <valueString value="Dit codesysteem definieert concepten die worden gebruikt in de BeSafe CareSets voor algemene termen."/>
+      </extension>
+    </extension>
+  </description>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="careset-business-identifier"/>
+    <display value="Business Identifier of the careset"/>
+    <designation>
+      <language value="nl"/>
+      <value value="Bedrijfsidentificatie van de zorgset"/>
+    </designation>
+    <designation>
+      <language value="fr"/>
+      <value value="Identifiant d'entreprise de l'ensemble de soins"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="recorded-date"/>
+    <display value="Date the record was first created in the system"/>
+    <designation>
+      <language value="fr"/>
+      <value value="Date de création de l'enregistrement dans le système"/>
+    </designation>
+    <designation>
+      <language value="nl"/>
+      <value value="Datum waarop het record voor het eerst is aangemaakt in het systeem"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="recorder"/>
+    <display value="Person who recorded the information"/>
+  </concept>
+  <concept>
+    <code value="patient"/>
+    <display value="The patient that is the subject of the record"/>
+  </concept>
+</CodeSystem>

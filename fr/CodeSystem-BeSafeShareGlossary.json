@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BeSafeShareGlossary",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem",
+    "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"]
+  },
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : CodeSystem BeSafeShareGlossary</b></p><a name=\"fr-BeSafeShareGlossary\"> </a><a name=\"fr-hcBeSafeShareGlossary\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : en</p><p style=\"margin-bottom: 0px\">Profils: <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem</code>, <code>http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem</code></p></div><p>This case-insensitive code system <code>http://example.org/CodeSystem/BeSafeShareGlossary</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">careset-business-identifier<a name=\"fr-BeSafeShareGlossary-careset-business-identifier\"> </a></td><td>Business Identifier of the careset</td></tr><tr><td style=\"white-space:nowrap\">recorded-date<a name=\"fr-BeSafeShareGlossary-recorded-date\"> </a></td><td>Date the record was first created in the system</td></tr><tr><td style=\"white-space:nowrap\">recorder<a name=\"fr-BeSafeShareGlossary-recorder\"> </a></td><td>Person who recorded the information</td></tr><tr><td style=\"white-space:nowrap\">patient<a name=\"fr-BeSafeShareGlossary-patient\"> </a></td><td>The patient that is the subject of the record</td></tr></table><p><b>Affichages en langues supplémentaires</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (fr)</b></td><td><b>Nederlands (Dutch, nl)</b></td></tr><tr><td>careset-business-identifier</td><td>Identifiant d'entreprise de l'ensemble de soins</td><td>Bedrijfsidentificatie van de zorgset</td></tr><tr><td>recorded-date</td><td>Date de création de l'enregistrement dans le système</td><td>Datum waarop het record voor het eerst is aangemaakt in het systeem</td></tr><tr><td>recorder</td><td/><td/></tr><tr><td>patient</td><td/><td/></tr></table></div>"
+  },
+  "url" : "http://example.org/CodeSystem/BeSafeShareGlossary",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:40+0000\\nPO-Revision-Date: 2025-10-21 10:40+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "title" : "CodeSystem pour le glossaire des ensembles de soins communs",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISQUE/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Ce système de codes définit les concepts utilisés dans les ensembles de soins BeSafe pour les termes du glossaire commun.",
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "careset-business-identifier",
+    "display" : "Business Identifier of the careset",
+    "designation" : [{
+      "language" : "nl",
+      "value" : "Bedrijfsidentificatie van de zorgset"
+    },
+    {
+      "language" : "fr",
+      "value" : "Identifiant d'entreprise de l'ensemble de soins"
+    }]
+  },
+  {
+    "code" : "recorded-date",
+    "display" : "Date the record was first created in the system",
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Date de création de l'enregistrement dans le système"
+    },
+    {
+      "language" : "nl",
+      "value" : "Datum waarop het record voor het eerst is aangemaakt in het systeem"
+    }]
+  },
+  {
+    "code" : "recorder",
+    "display" : "Person who recorded the information"
+  },
+  {
+    "code" : "patient",
+    "display" : "The patient that is the subject of the record"
+  }]
+}

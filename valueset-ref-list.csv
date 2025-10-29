@@ -1,0 +1,7 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/ValueSet/ProblemCategoryVS,0.1.0,draft,,ProblemCategoryVS,Problem Category Value Set,"Category of the problem","StructureDefinition/BeModelProblem",
+http://example.org/ValueSet/ProblemCodeVS,0.1.0,draft,,ProblemCodeVS,Problem Code Value Set,"Code of the problem","StructureDefinition/BeModelProblem",
+http://example.org/ValueSet/ProblemDiseaseCourseVS,0.1.0,draft,,ProblemDiseaseCourseVS,Condition Disease Course Value Set,"Condition Disease Course","StructureDefinition/BeModelProblem","SCT"
+http://hl7.org/fhir/ValueSet/condition-clinical,4.0.1,draft,"2.16.840.1.113883.4.642.3.164",ConditionClinicalStatusCodes,Condition Clinical Status Codes,"Preferred value set for Condition Clinical Status.","StructureDefinition/BeModelProblem","THO"
+http://hl7.org/fhir/ValueSet/condition-severity,4.0.1,draft,"2.16.840.1.113883.4.642.3.168",Condition/DiagnosisSeverity,Condition/Diagnosis Severity,"Preferred value set for Condition/Diagnosis severity grading.","StructureDefinition/BeModelProblem","SCT"
+http://hl7.org/fhir/ValueSet/condition-ver-status,4.0.1,draft,"2.16.840.1.113883.4.642.3.166",ConditionVerificationStatus,ConditionVerificationStatus,"The verification status to support or decline the clinical status of the condition or diagnosis.","StructureDefinition/BeModelProblem","THO"

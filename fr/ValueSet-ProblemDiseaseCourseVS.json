@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemDiseaseCourseVS",
+  "language" : "fr",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs ProblemDiseaseCourseVS</b></p><a name=\"fr-ProblemDiseaseCourseVS\"> </a><a name=\"fr-hcProblemDiseaseCourseVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : en</p></div><ul><li>Include codes provenant de<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is explicitly stated to be http://snomed.info/sct/11000172109\"> version &#x1F4CD;</span> où concept  is-a 288524001</li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ProblemDiseaseCourseVS",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:43+0000\\nPO-Revision-Date: 2025-10-21 10:43+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "title" : "Condition Maladie Cours Ensemble de valeurs",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISQUE/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Cours sur l'état de santé et les maladies",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/11000172109",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "288524001"
+      }]
+    }]
+  }
+}

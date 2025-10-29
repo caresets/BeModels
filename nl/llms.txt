@@ -1,0 +1,35 @@
+# hl7.be.fhir.models#0.1.0: CareSets - data models(nl)
+
+## Pages
+
+* [Home](index.md)
+* [Samenvatting artefacten](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [CodeSystem for common CareSets glossary](CodeSystem-BeSafeShareGlossary.md)
+
+### ValueSets
+
+* [Problem Category Value Set](ValueSet-ProblemCategoryVS.md)
+* [Problem Code Value Set](ValueSet-ProblemCodeVS.md)
+* [Condition Disease Course Value Set](ValueSet-ProblemDiseaseCourseVS.md)
+
+### Logicals
+
+* [BeModelAnnex81](StructureDefinition-BeModelAnnex81.md)
+* [BeModelAssignment](StructureDefinition-BeModelAssignment.md)
+* [BeModelNursingPrescription](StructureDefinition-BeModelNursingPrescription.md)
+* [BeModelOrganisationClaim](StructureDefinition-BeModelOrganisationClaim.md)
+* [Problem Logical Model](StructureDefinition-BeModelProblem.md)
+* [BeModelRadiologyPrescription](StructureDefinition-BeModelRadiologyPrescription.md)
+* [BeModelReferralPrescription](StructureDefinition-BeModelReferralPrescription.md)
+* [BeModelTreatmentStatus](StructureDefinition-BeModelTreatmentStatus.md)
+* [BodySite Model](StructureDefinition-be-model-bodysite.md)
+* [BeObservation Model](StructureDefinition-be-model-observation.md)
+
+### ImplementationGuides
+
+* [CareSets - data models](ImplementationGuide-hl7.be.fhir.models.md)

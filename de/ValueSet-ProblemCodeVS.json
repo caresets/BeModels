@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemCodeVS",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ProblemCodeVS</b></p><a name=\"de-ProblemCodeVS\"> </a><a name=\"de-hcProblemCodeVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url" : "http://example.org/ValueSet/ProblemCodeVS",
+  "version" : "0.1.0",
+  "name" : "ProblemCodeVS",
+  "title" : "Problem Code Value Set",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RIZIV/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Code of the problem"
+}

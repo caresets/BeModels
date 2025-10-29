@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemDiseaseCourseVS",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ProblemDiseaseCourseVS</b></p><a name=\"de-ProblemDiseaseCourseVS\"> </a><a name=\"de-hcProblemDiseaseCourseVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is explicitly stated to be http://snomed.info/sct/11000172109\"> version &#x1F4CD;</span> where concept  is-a 288524001</li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ProblemDiseaseCourseVS",
+  "version" : "0.1.0",
+  "name" : "ProblemDiseaseCourseVS",
+  "title" : "Condition Disease Course Value Set",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RIZIV/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Condition Disease Course",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/11000172109",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "288524001"
+      }]
+    }]
+  }
+}

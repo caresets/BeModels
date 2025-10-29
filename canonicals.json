@@ -1,0 +1,107 @@
+[
+  {
+    "id" : "BeSafeShareGlossary",
+    "type" : "CodeSystem",
+    "url" : "http://example.org/CodeSystem/BeSafeShareGlossary",
+    "version" : "0.1.0",
+    "name" : "BeSafeShareGlossary"
+  },
+  {
+    "id" : "hl7.be.fhir.models",
+    "type" : "ImplementationGuide",
+    "url" : "http://example.org/ImplementationGuide/hl7.be.fhir.models",
+    "version" : "0.1.0",
+    "name" : "BeModels"
+  },
+  {
+    "id" : "BeModelAnnex81",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelAnnex81",
+    "version" : "0.1.0",
+    "name" : "BeModelAnnex81"
+  },
+  {
+    "id" : "BeModelAssignment",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelAssignment",
+    "version" : "0.1.0",
+    "name" : "BeModelAssignment"
+  },
+  {
+    "id" : "BeModelNursingPrescription",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelNursingPrescription",
+    "version" : "0.1.0",
+    "name" : "BeModelNursingPrescription"
+  },
+  {
+    "id" : "BeModelOrganisationClaim",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelOrganisationClaim",
+    "version" : "0.1.0",
+    "name" : "BeModelOrganisationClaim"
+  },
+  {
+    "id" : "BeModelProblem",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelProblem",
+    "version" : "0.1.0",
+    "name" : "BeModelProblem"
+  },
+  {
+    "id" : "BeModelRadiologyPrescription",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelRadiologyPrescription",
+    "version" : "0.1.0",
+    "name" : "BeModelRadiologyPrescription"
+  },
+  {
+    "id" : "BeModelReferralPrescription",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelReferralPrescription",
+    "version" : "0.1.0",
+    "name" : "BeModelReferralPrescription"
+  },
+  {
+    "id" : "BeModelTreatmentStatus",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/BeModelTreatmentStatus",
+    "version" : "0.1.0",
+    "name" : "BeModelTreatmentStatus"
+  },
+  {
+    "id" : "be-model-bodysite",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/be-model-bodysite",
+    "version" : "0.1.0",
+    "name" : "BeModelBodySite"
+  },
+  {
+    "id" : "be-model-observation",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/StructureDefinition/be-model-observation",
+    "version" : "0.1.0",
+    "name" : "BeModelObservation"
+  },
+  {
+    "id" : "ProblemCategoryVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+    "version" : "0.1.0",
+    "name" : "ProblemCategoryVS"
+  },
+  {
+    "id" : "ProblemCodeVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/ProblemCodeVS",
+    "version" : "0.1.0",
+    "name" : "ProblemCodeVS"
+  },
+  {
+    "id" : "ProblemDiseaseCourseVS",
+    "type" : "ValueSet",
+    "url" : "http://example.org/ValueSet/ProblemDiseaseCourseVS",
+    "version" : "0.1.0",
+    "name" : "ProblemDiseaseCourseVS"
+  }
+]

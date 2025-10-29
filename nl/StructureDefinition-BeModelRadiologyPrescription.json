@@ -1,0 +1,607 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BeModelRadiologyPrescription",
+  "language" : "nl",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: StructureDefinition BeModelRadiologyPrescription</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Taal: en</p></div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"De logische naam van het element\">Naam</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Informatie over het gebruik van het element\">Markeringen</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum en maximum # keren dat het element kan voorkomen in de instance\">Kard.</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Referentie naar het type van het element\">Type</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additionele informatie over het element\">Omschrijving &amp; constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription\" title=\"Gegevensmodel voor de verpleegkundige voorschriftverwijzing.\">BeModelRadiologyPrescription</a><a name=\"nl-BeModelRadiologyPrescription\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-BeModelReferralPrescription.html\">BeModelReferralPrescription</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">BeModelRadiologyPrescription<br/><br/>Elementen gedefinieerd in ancestors:<a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Business identifier of the request\">identifier</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Business code allowing the healthcare professional to find a prescription associated with a patient\">shortCode</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Date of recording of the information by the Recorder.\">recordedDate</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Date of creation of the referral prescription. This date will not change throughout the process. This date corresponds to the first recordedDate recorded for this referral prescription.\">creationDate</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Is the unique identifier of the patient. The unique identifier must be: NISS, National Registry Number or Bis Patient\">patient</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Is the unique identifier of the person who encodes the prescription (e.g. a doctor, nurse, midwife or dentist) and takes responsibility for their content. The unique identifier must be: NISS, National Registry Number or Bis Requester\">author</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Is the status of the referral prescription (e.g. planned, complete, stopped, suspended, in progress, ...)\">status</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Gives the reason for the status of the referral prescription (treatment has been changed, patient is allergic, patient refuses, ...)\">statusReason</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Type of care requested (e.g. 'Compression therapy', 'Sample collection', 'CT Scan').\">careRequested</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Category of the requested care (nursing, radiology, ...)\">discipline</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Additional details on the requested care\">description</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Type of the request or prescription ('Prescription' or 'Proposal').\">type</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Reference to the ID of the original request (useful when the request is an extension of another one).\">originRequestId</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Start date of the prescription validity (encoded by the prescriber).\">validityStartDate</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"End date of the prescription validity (encoded by the prescriber)\">validityEndDate</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Medical problem or clinical context related to this request (for example: 'Open wound', 'Broken leg').\">problem</a>, <a href=\"StructureDefinition-BeModelReferralPrescription.html\" title=\"Anatomical location where the treatment should be applied (for example: 'Left arm').\">bodyLocation</a><br/><span style=\"font-weight:bold\">Instances van dit logisch model kunnen doel zijn van een Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.priority\" title=\"De prioriteit van de doorverwijzing of transferaanvraag.\">priority</a><a name=\"nl-BeModelRadiologyPrescription.priority\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">De prioriteit van de doorverwijzing of transferaanvraag.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.priorityReason\" title=\"De reden voor de prioriteit die aan een verwijzings- of doorverwijsverzoek is toegekend.\">priorityReason</a><a name=\"nl-BeModelRadiologyPrescription.priorityReason\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">De reden voor de prioriteit die aan een verwijzings- of doorverwijsverzoek is toegekend.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Verwijzing naar andere resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.additionalInfo\" title=\"Aanvullende informatie die in de toekomst nodig kan zijn om op het verzoek te reageren.\">additionalInfo</a><a name=\"nl-BeModelRadiologyPrescription.additionalInfo\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Aanvullende informatie die in de toekomst nodig kan zijn om op het verzoek te reageren.<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Verwijzing naar andere resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.previousExams\" title=\"Procedures die verband houden met dit verwijzingsverzoek.\">previousExams</a><a name=\"nl-BeModelRadiologyPrescription.previousExams\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Procedures die verband houden met dit verwijzingsverzoek.<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.pssInfo\" title=\"Identificatiecode van het zoeken naar een recept in het PSS-systeem.\">pssInfo</a><a name=\"nl-BeModelRadiologyPrescription.pssInfo\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identificatiecode van het recept in het PSS-systeem.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Verwijzing naar andere resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.indication\" title=\"Indicaties die de verwijzingsaanvraag ondersteunen.\">indication</a><a name=\"nl-BeModelRadiologyPrescription.indication\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Indicaties die de verwijzingsaanvraag ondersteunen.<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.explanationForRequest\" title=\"Uitleg/rechtvaardiging voor de verwijzing.\">explanationForRequest</a><a name=\"nl-BeModelRadiologyPrescription.explanationForRequest\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Uitleg/rechtvaardiging voor de verwijzing.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.bodySite\" title=\"Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;).\">bodySite</a><a name=\"nl-BeModelRadiologyPrescription.bodySite\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;).<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.bodyLaterality\" title=\"Lateraliteit van de anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Links&quot;).\">bodyLaterality</a><a name=\"nl-BeModelRadiologyPrescription.bodyLaterality\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Lateraliteit van de anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Links&quot;).</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelRadiologyPrescription-definitions.html#BeModelRadiologyPrescription.pssIdentifier\" title=\"Identificatiecode van het recept in het PSS-systeem.\">pssIdentifier</a><a name=\"nl-BeModelRadiologyPrescription.pssIdentifier\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identificatiecode van het recept in het PSS-systeem.<br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legenda voor dit formaat\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentatie voor dit formaat</a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
+    "valueCode" : "can-be-target"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
+    "valueCode" : "can-be-target"
+  }],
+  "url" : "http://example.org/StructureDefinition/BeModelRadiologyPrescription",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:49+0000\\nPO-Revision-Date: 2025-10-21 10:49+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISICO/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Data model for the nursing prescription referral.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://example.org/StructureDefinition/BeModelRadiologyPrescription",
+  "baseDefinition" : "http://example.org/StructureDefinition/BeModelReferralPrescription",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "0.1.0"
+    }],
+    "element" : [{
+      "id" : "BeModelRadiologyPrescription",
+      "path" : "BeModelRadiologyPrescription",
+      "short" : "BeModelRadiologyPrescription",
+      "definition" : "Gegevensmodel voor de verpleegkundige voorschriftverwijzing.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.identifier",
+      "path" : "BeModelRadiologyPrescription.identifier",
+      "short" : "Bedrijfsaanduiding van het verzoek",
+      "definition" : "Bedrijfsaanduiding van het verzoek",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.identifier",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.shortCode",
+      "path" : "BeModelRadiologyPrescription.shortCode",
+      "short" : "Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld",
+      "definition" : "Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.shortCode",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.recordedDate",
+      "path" : "BeModelRadiologyPrescription.recordedDate",
+      "short" : "Datum van registratie van de informatie door de Recorder.",
+      "definition" : "Datum van registratie van de informatie door de Recorder.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.recordedDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.creationDate",
+      "path" : "BeModelRadiologyPrescription.creationDate",
+      "short" : "Datum waarop het verwijzingsrecept is aangemaakt",
+      "definition" : "Datum waarop het verwijzingsvoorschrift is aangemaakt. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.creationDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.patient",
+      "path" : "BeModelRadiologyPrescription.patient",
+      "short" : "Identificatie van de patiënt. De unieke identificatie moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt.",
+      "definition" : "Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.patient",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.author",
+      "path" : "BeModelRadiologyPrescription.author",
+      "short" : "De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester",
+      "definition" : "Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.author",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.status",
+      "path" : "BeModelRadiologyPrescription.status",
+      "short" : "Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?",
+      "definition" : "Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ...)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.status",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.statusReason",
+      "path" : "BeModelRadiologyPrescription.statusReason",
+      "short" : "Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)",
+      "definition" : "Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.statusReason",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.careRequested",
+      "path" : "BeModelRadiologyPrescription.careRequested",
+      "short" : "Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', CT-scan).",
+      "definition" : "Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', 'CT-scan').",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.careRequested",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.discipline",
+      "path" : "BeModelRadiologyPrescription.discipline",
+      "short" : "Categorie van de gevraagde zorg (verpleging, radiologie, ...)",
+      "definition" : "Categorie van de gevraagde zorg (verpleging, radiologie, ...)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.discipline",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.description",
+      "path" : "BeModelRadiologyPrescription.description",
+      "short" : "Extra details over de gevraagde zorg",
+      "definition" : "Extra details over de gevraagde zorg",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.description",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.type",
+      "path" : "BeModelRadiologyPrescription.type",
+      "short" : "Type verzoek of voorschrift (\"Voorschrift\" of \"Voorstel\").",
+      "definition" : "Type verzoek of voorschrift (\"Voorschrift\" of \"Voorstel\").",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.type",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.originRequestId",
+      "path" : "BeModelRadiologyPrescription.originRequestId",
+      "short" : "Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek).",
+      "definition" : "Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.originRequestId",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.validityStartDate",
+      "path" : "BeModelRadiologyPrescription.validityStartDate",
+      "short" : "Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).",
+      "definition" : "Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.validityStartDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.validityEndDate",
+      "path" : "BeModelRadiologyPrescription.validityEndDate",
+      "short" : "Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)",
+      "definition" : "Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelReferralPrescription.validityEndDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.problem",
+      "path" : "BeModelRadiologyPrescription.problem",
+      "short" : "Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: \"Open wond\", \"Gebroken been\").",
+      "definition" : "Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: \"Open wond\", \"Gebroken been\").",
+      "min" : 1,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelReferralPrescription.problem",
+        "min" : 1,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.bodyLocation",
+      "path" : "BeModelRadiologyPrescription.bodyLocation",
+      "short" : "Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Linkerarm\").",
+      "definition" : "Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Linkerarm\").",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelReferralPrescription.bodyLocation",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.priority",
+      "path" : "BeModelRadiologyPrescription.priority",
+      "short" : "De prioriteit van de doorverwijzing of transferaanvraag.",
+      "definition" : "De prioriteit van de doorverwijzing of transferaanvraag.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.priority",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.priorityReason",
+      "path" : "BeModelRadiologyPrescription.priorityReason",
+      "short" : "De reden voor de prioriteit die aan een verwijzings- of doorverwijsverzoek is toegekend.",
+      "definition" : "De reden voor de prioriteit die aan een verwijzings- of doorverwijsverzoek is toegekend.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.priorityReason",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.additionalInfo",
+      "path" : "BeModelRadiologyPrescription.additionalInfo",
+      "short" : "Aanvullende informatie die in de toekomst nodig kan zijn om op het verzoek te reageren.",
+      "definition" : "Aanvullende informatie die in de toekomst nodig kan zijn om op het verzoek te reageren.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.additionalInfo",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.previousExams",
+      "path" : "BeModelRadiologyPrescription.previousExams",
+      "short" : "Procedures die verband houden met dit verwijzingsverzoek.",
+      "definition" : "Procedures die verband houden met dit verwijzingsverzoek.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.previousExams",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.pssInfo",
+      "path" : "BeModelRadiologyPrescription.pssInfo",
+      "short" : "Identificatiecode van het recept in het PSS-systeem.",
+      "definition" : "Identificatiecode van het zoeken naar een recept in het PSS-systeem.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.pssInfo",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.indication",
+      "path" : "BeModelRadiologyPrescription.indication",
+      "short" : "Indicaties die de verwijzingsaanvraag ondersteunen.",
+      "definition" : "Indicaties die de verwijzingsaanvraag ondersteunen.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.indication",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.explanationForRequest",
+      "path" : "BeModelRadiologyPrescription.explanationForRequest",
+      "short" : "Uitleg/rechtvaardiging voor de verwijzing.",
+      "definition" : "Uitleg/rechtvaardiging voor de verwijzing.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.explanationForRequest",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.bodySite",
+      "path" : "BeModelRadiologyPrescription.bodySite",
+      "short" : "Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Linkerarm\").",
+      "definition" : "Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Linkerarm\").",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.bodySite",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.bodyLaterality",
+      "path" : "BeModelRadiologyPrescription.bodyLaterality",
+      "short" : "Lateraliteit van de anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Links\").",
+      "definition" : "Lateraliteit van de anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Links\").",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.bodyLaterality",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.pssIdentifier",
+      "path" : "BeModelRadiologyPrescription.pssIdentifier",
+      "short" : "Identificatiecode van het recept in het PSS-systeem.",
+      "definition" : "Identificatiecode van het recept in het PSS-systeem.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelRadiologyPrescription.pssIdentifier",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "BeModelRadiologyPrescription",
+      "path" : "BeModelRadiologyPrescription",
+      "short" : "BeModelRadiologyPrescription",
+      "definition" : "Gegevensmodel voor de verpleegkundige voorschriftverwijzing."
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.priority",
+      "path" : "BeModelRadiologyPrescription.priority",
+      "short" : "De prioriteit van de doorverwijzing of transferaanvraag.",
+      "definition" : "De prioriteit van de doorverwijzing of transferaanvraag.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.priorityReason",
+      "path" : "BeModelRadiologyPrescription.priorityReason",
+      "short" : "De reden voor de prioriteit die aan een verwijzings- of doorverwijsverzoek is toegekend.",
+      "definition" : "De reden voor de prioriteit die aan een verwijzings- of doorverwijsverzoek is toegekend.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.additionalInfo",
+      "path" : "BeModelRadiologyPrescription.additionalInfo",
+      "short" : "Aanvullende informatie die in de toekomst nodig kan zijn om op het verzoek te reageren.",
+      "definition" : "Aanvullende informatie die in de toekomst nodig kan zijn om op het verzoek te reageren.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.previousExams",
+      "path" : "BeModelRadiologyPrescription.previousExams",
+      "short" : "Procedures die verband houden met dit verwijzingsverzoek.",
+      "definition" : "Procedures die verband houden met dit verwijzingsverzoek.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.pssInfo",
+      "path" : "BeModelRadiologyPrescription.pssInfo",
+      "short" : "Identificatiecode van het recept in het PSS-systeem.",
+      "definition" : "Identificatiecode van het zoeken naar een recept in het PSS-systeem.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.indication",
+      "path" : "BeModelRadiologyPrescription.indication",
+      "short" : "Indicaties die de verwijzingsaanvraag ondersteunen.",
+      "definition" : "Indicaties die de verwijzingsaanvraag ondersteunen.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.explanationForRequest",
+      "path" : "BeModelRadiologyPrescription.explanationForRequest",
+      "short" : "Uitleg/rechtvaardiging voor de verwijzing.",
+      "definition" : "Uitleg/rechtvaardiging voor de verwijzing.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.bodySite",
+      "path" : "BeModelRadiologyPrescription.bodySite",
+      "short" : "Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Linkerarm\").",
+      "definition" : "Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Linkerarm\").",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.bodyLaterality",
+      "path" : "BeModelRadiologyPrescription.bodyLaterality",
+      "short" : "Lateraliteit van de anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Links\").",
+      "definition" : "Lateraliteit van de anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: \"Links\").",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelRadiologyPrescription.pssIdentifier",
+      "path" : "BeModelRadiologyPrescription.pssIdentifier",
+      "short" : "Identificatiecode van het recept in het PSS-systeem.",
+      "definition" : "Identificatiecode van het recept in het PSS-systeem.",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    }]
+  }
+}

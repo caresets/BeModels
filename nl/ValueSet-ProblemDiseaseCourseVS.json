@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemDiseaseCourseVS",
+  "language" : "nl",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: ValueSet ProblemDiseaseCourseVS</b></p><a name=\"nl-ProblemDiseaseCourseVS\"> </a><a name=\"nl-hcProblemDiseaseCourseVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Taal: en</p></div><ul><li>Include codes uit<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is explicitly stated to be http://snomed.info/sct/11000172109\"> versie &#x1F4CD;</span> waar concept  is-a 288524001</li></ul></div>"
+  },
+  "url" : "http://example.org/ValueSet/ProblemDiseaseCourseVS",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "title" : "Conditie Ziekte Cursus Waardeset",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISICO/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Conditie Ziekte Cursus",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/11000172109",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "288524001"
+      }]
+    }]
+  }
+}

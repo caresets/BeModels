@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="8341b85b-ad4e-46a4-90eb-6181a5383efd"/>
+  <meta>
+    <lastUpdated value="2025-10-29T07:49:40.230+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCategoryVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Category Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcategorie Waardeset"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Catégorie de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:409ce0f3-ab98-4954-8da6-52f1b3f49f56"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCategoryVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Category Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcategorie Waardeset"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Catégorie de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:409ce0f3-ab98-4954-8da6-52f1b3f49f56"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>Ce jeu de valeur (ValueSet) contient 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCategoryVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Category Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcategorie Waardeset"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Catégorie de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:cb4709d2-e1e0-4928-9186-dc8efd992219"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>Deze waardelijst bevat 0 concepten</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Systeem</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Weergave (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>Json</b>
+                </td>
+                <td>
+                  <b>Xml</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCategoryVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Category Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcategorie Waardeset"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Catégorie de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:f2bd6b72-beda-41f5-b250-d5131108ba5a"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="nl"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCategoryVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCategoryVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Category Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcategorie Waardeset"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Catégorie de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:49e44a07-9ccc-4d4a-b800-79768e9600c8"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCodeVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCodeVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Code Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Code de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcode Waardeset"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:f6c9e5a9-80e3-43e0-bbb6-5b68ce5804ca"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCodeVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCodeVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Code Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Code de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcode Waardeset"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:f6c9e5a9-80e3-43e0-bbb6-5b68ce5804ca"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>Ce jeu de valeur (ValueSet) contient 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCodeVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCodeVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Code Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Code de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcode Waardeset"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:747d52a7-4ccb-432e-a0db-07695fd6098f"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>Deze waardelijst bevat 0 concepten</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Systeem</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Weergave (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>Json</b>
+                </td>
+                <td>
+                  <b>Xml</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCodeVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCodeVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Code Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Code de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcode Waardeset"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:9431960d-9841-400f-83df-76978ad3eee0"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="nl"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://example.org/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b> - English (English, en)
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://example.org/ValueSet/ProblemCodeVS"/>
+        <version value="0.1.0"/>
+        <name value="ProblemCodeVS">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:43+0000\nPO-Revision-Date: 2025-10-21 10:43+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:50+0000\nPO-Revision-Date: 2025-10-21 10:50+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+            </extension>
+          </extension>
+        </name>
+        <title value="Problem Code Value Set">
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="fr"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Code de problème Ensemble de valeurs"/>
+            </extension>
+          </extension>
+          <extension url="http://hl7.org/fhir/StructureDefinition/translation">
+            <extension url="lang">
+              <valueCode value="nl"/>
+            </extension>
+            <extension url="content">
+              <valueString value="Probleemcode Waardeset"/>
+            </extension>
+          </extension>
+        </title>
+        <status value="draft"/>
+        <date value="2025-10-29T07:49:40+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:16f5e07e-862f-4e08-8719-e05b27af0997"/>
+          <timestamp value="2025-10-29T07:50:45+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

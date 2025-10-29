@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BeModelReferralPrescription"/>
+  <language value="nl"/>
+  <text>
+    <status value="extensions"/><div xml:lang="nl" lang="nl"><hr/><p><b>Dutch</b></p><hr/><p class="res-header-id"><b>Gegenereerde narrative: StructureDefinition BeModelReferralPrescription</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Taal: en</p></div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="De logische naam van het element">Naam</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Informatie over het gebruik van het element">Markeringen</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum en maximum # keren dat het element kan voorkomen in de instance">Kard.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Referentie naar het type van het element">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additionele informatie over het element">Omschrijving &amp; constraints</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription" title="Gegevensmodel voor verwijzingen naar recepten.">BeModelReferralPrescription</a><a name="nl-BeModelReferralPrescription"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org/types.html#Base">Base</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">BeModelReferralPrescription<br/><span style="font-weight:bold">Instances van dit logisch model kunnen doel zijn van een Reference</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.identifier" title="Bedrijfsaanduiding van het verzoek">identifier</a><a name="nl-BeModelReferralPrescription.identifier"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Bedrijfsaanduiding van het verzoek</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.shortCode" title="Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld">shortCode</a><a name="nl-BeModelReferralPrescription.shortCode"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitief datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.recordedDate" title="Datum van registratie van de informatie door de Recorder.">recordedDate</a><a name="nl-BeModelReferralPrescription.recordedDate"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Datum van registratie van de informatie door de Recorder.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitief datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.creationDate" title="Datum waarop het verwijzingsvoorschrift is aangemaakt. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.">creationDate</a><a name="nl-BeModelReferralPrescription.creationDate"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Datum waarop het verwijzingsrecept is aangemaakt</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.patient" title="Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt.">patient</a><a name="nl-BeModelReferralPrescription.patient"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Identificatie van de patiënt. De unieke identificatie moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.author" title="Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester">author</a><a name="nl-BeModelReferralPrescription.author"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.status" title="Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ...)">status</a><a name="nl-BeModelReferralPrescription.status"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.statusReason" title="Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)">statusReason</a><a name="nl-BeModelReferralPrescription.statusReason"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.careRequested" title="Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', 'CT-scan').">careRequested</a><a name="nl-BeModelReferralPrescription.careRequested"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', CT-scan).</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.discipline" title="Categorie van de gevraagde zorg (verpleging, radiologie, ...)">discipline</a><a name="nl-BeModelReferralPrescription.discipline"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Categorie van de gevraagde zorg (verpleging, radiologie, ...)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.description" title="Extra details over de gevraagde zorg">description</a><a name="nl-BeModelReferralPrescription.description"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Extra details over de gevraagde zorg</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.type" title="Type verzoek of voorschrift (&quot;Voorschrift&quot; of &quot;Voorstel&quot;).">type</a><a name="nl-BeModelReferralPrescription.type"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Type verzoek of voorschrift (&quot;Voorschrift&quot; of &quot;Voorstel&quot;).</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.originRequestId" title="Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek).">originRequestId</a><a name="nl-BeModelReferralPrescription.originRequestId"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek).</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitief datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.validityStartDate" title="Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).">validityStartDate</a><a name="nl-BeModelReferralPrescription.validityStartDate"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitief datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.validityEndDate" title="Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)">validityEndDate</a><a name="nl-BeModelReferralPrescription.validityEndDate"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.problem" title="Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: &quot;Open wond&quot;, &quot;Gebroken been&quot;).">problem</a><a name="nl-BeModelReferralPrescription.problem"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: &quot;Open wond&quot;, &quot;Gebroken been&quot;).<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Datatype" class="hierarchy"/> <a href="StructureDefinition-BeModelReferralPrescription-definitions.html#BeModelReferralPrescription.bodyLocation" title="Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;).">bodyLocation</a><a name="nl-BeModelReferralPrescription.bodyLocation"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;).<br/></td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legenda voor dit formaat"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentatie voor dit formaat</a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics">
+    <valueCode value="can-be-target"/>
+  </extension>
+  <url value="http://example.org/StructureDefinition/BeModelReferralPrescription"/>
+  <version value="0.1.0"/>
+  <name value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:49+0000\nPO-Revision-Date: 2025-10-21 10:49+0000\nLanguage: NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+  <status value="draft"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RISICO/INAMI"/>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Data model for the prescription referral."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://example.org/StructureDefinition/BeModelReferralPrescription"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Base"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="4.0.1"/>
+    </extension>
+    <element id="BeModelReferralPrescription">
+      <path value="BeModelReferralPrescription"/>
+      <short value="BeModelReferralPrescription"/>
+      <definition value="Gegevensmodel voor verwijzingen naar recepten."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="BeModelReferralPrescription.identifier">
+      <path value="BeModelReferralPrescription.identifier"/>
+      <short value="Bedrijfsaanduiding van het verzoek"/>
+      <definition value="Bedrijfsaanduiding van het verzoek"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.identifier"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.shortCode">
+      <path value="BeModelReferralPrescription.shortCode"/>
+      <short value="Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld"/>
+      <definition value="Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.shortCode"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.recordedDate">
+      <path value="BeModelReferralPrescription.recordedDate"/>
+      <short value="Datum van registratie van de informatie door de Recorder."/>
+      <definition value="Datum van registratie van de informatie door de Recorder."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.recordedDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.creationDate">
+      <path value="BeModelReferralPrescription.creationDate"/>
+      <short value="Datum waarop het verwijzingsrecept is aangemaakt"/>
+      <definition value="Datum waarop het verwijzingsvoorschrift is aangemaakt. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.creationDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.patient">
+      <path value="BeModelReferralPrescription.patient"/>
+      <short value="Identificatie van de patiënt. De unieke identificatie moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt."/>
+      <definition value="Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.patient"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.author">
+      <path value="BeModelReferralPrescription.author"/>
+      <short value="De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester"/>
+      <definition value="Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.author"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.status">
+      <path value="BeModelReferralPrescription.status"/>
+      <short value="Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?"/>
+      <definition value="Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ...)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.status"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.statusReason">
+      <path value="BeModelReferralPrescription.statusReason"/>
+      <short value="Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)"/>
+      <definition value="Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.statusReason"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.careRequested">
+      <path value="BeModelReferralPrescription.careRequested"/>
+      <short value="Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', CT-scan)."/>
+      <definition value="Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', 'CT-scan')."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.careRequested"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.discipline">
+      <path value="BeModelReferralPrescription.discipline"/>
+      <short value="Categorie van de gevraagde zorg (verpleging, radiologie, ...)"/>
+      <definition value="Categorie van de gevraagde zorg (verpleging, radiologie, ...)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.discipline"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.description">
+      <path value="BeModelReferralPrescription.description"/>
+      <short value="Extra details over de gevraagde zorg"/>
+      <definition value="Extra details over de gevraagde zorg"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.description"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.type">
+      <path value="BeModelReferralPrescription.type"/>
+      <short value="Type verzoek of voorschrift (&quot;Voorschrift&quot; of &quot;Voorstel&quot;)."/>
+      <definition value="Type verzoek of voorschrift (&quot;Voorschrift&quot; of &quot;Voorstel&quot;)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.originRequestId">
+      <path value="BeModelReferralPrescription.originRequestId"/>
+      <short value="Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek)."/>
+      <definition value="Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.originRequestId"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.validityStartDate">
+      <path value="BeModelReferralPrescription.validityStartDate"/>
+      <short value="Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver)."/>
+      <definition value="Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.validityStartDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.validityEndDate">
+      <path value="BeModelReferralPrescription.validityEndDate"/>
+      <short value="Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)"/>
+      <definition value="Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.validityEndDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.problem">
+      <path value="BeModelReferralPrescription.problem"/>
+      <short value="Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: &quot;Open wond&quot;, &quot;Gebroken been&quot;)."/>
+      <definition value="Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: &quot;Open wond&quot;, &quot;Gebroken been&quot;)."/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelReferralPrescription.problem"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.bodyLocation">
+      <path value="BeModelReferralPrescription.bodyLocation"/>
+      <short value="Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;)."/>
+      <definition value="Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;)."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelReferralPrescription.bodyLocation"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="BeModelReferralPrescription">
+      <path value="BeModelReferralPrescription"/>
+      <short value="BeModelReferralPrescription"/>
+      <definition value="Gegevensmodel voor verwijzingen naar recepten."/>
+    </element>
+    <element id="BeModelReferralPrescription.identifier">
+      <path value="BeModelReferralPrescription.identifier"/>
+      <short value="Bedrijfsaanduiding van het verzoek"/>
+      <definition value="Bedrijfsaanduiding van het verzoek"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.shortCode">
+      <path value="BeModelReferralPrescription.shortCode"/>
+      <short value="Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld"/>
+      <definition value="Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.recordedDate">
+      <path value="BeModelReferralPrescription.recordedDate"/>
+      <short value="Datum van registratie van de informatie door de Recorder."/>
+      <definition value="Datum van registratie van de informatie door de Recorder."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.creationDate">
+      <path value="BeModelReferralPrescription.creationDate"/>
+      <short value="Datum waarop het verwijzingsrecept is aangemaakt"/>
+      <definition value="Datum waarop het verwijzingsvoorschrift is aangemaakt. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.patient">
+      <path value="BeModelReferralPrescription.patient"/>
+      <short value="Identificatie van de patiënt. De unieke identificatie moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt."/>
+      <definition value="Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Patiënt."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.author">
+      <path value="BeModelReferralPrescription.author"/>
+      <short value="De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester"/>
+      <definition value="Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet zijn: NISS, Nationaal Register Nummer of Bis Requester"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.status">
+      <path value="BeModelReferralPrescription.status"/>
+      <short value="Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?"/>
+      <definition value="Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ...)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.statusReason">
+      <path value="BeModelReferralPrescription.statusReason"/>
+      <short value="Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)"/>
+      <definition value="Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.careRequested">
+      <path value="BeModelReferralPrescription.careRequested"/>
+      <short value="Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', CT-scan)."/>
+      <definition value="Type zorg dat wordt aangevraagd (bijv. 'Compressietherapie', 'Monstername', 'CT-scan')."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.discipline">
+      <path value="BeModelReferralPrescription.discipline"/>
+      <short value="Categorie van de gevraagde zorg (verpleging, radiologie, ...)"/>
+      <definition value="Categorie van de gevraagde zorg (verpleging, radiologie, ...)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.description">
+      <path value="BeModelReferralPrescription.description"/>
+      <short value="Extra details over de gevraagde zorg"/>
+      <definition value="Extra details over de gevraagde zorg"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.type">
+      <path value="BeModelReferralPrescription.type"/>
+      <short value="Type verzoek of voorschrift (&quot;Voorschrift&quot; of &quot;Voorstel&quot;)."/>
+      <definition value="Type verzoek of voorschrift (&quot;Voorschrift&quot; of &quot;Voorstel&quot;)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.originRequestId">
+      <path value="BeModelReferralPrescription.originRequestId"/>
+      <short value="Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek)."/>
+      <definition value="Verwijzing naar de ID van het oorspronkelijke verzoek (handig als het verzoek een uitbreiding is van een ander verzoek)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.validityStartDate">
+      <path value="BeModelReferralPrescription.validityStartDate"/>
+      <short value="Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver)."/>
+      <definition value="Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.validityEndDate">
+      <path value="BeModelReferralPrescription.validityEndDate"/>
+      <short value="Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)"/>
+      <definition value="Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.problem">
+      <path value="BeModelReferralPrescription.problem"/>
+      <short value="Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: &quot;Open wond&quot;, &quot;Gebroken been&quot;)."/>
+      <definition value="Medisch probleem of klinische context gerelateerd aan dit verzoek (bijvoorbeeld: &quot;Open wond&quot;, &quot;Gebroken been&quot;)."/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelReferralPrescription.bodyLocation">
+      <path value="BeModelReferralPrescription.bodyLocation"/>
+      <short value="Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;)."/>
+      <definition value="Anatomische locatie waar de behandeling moet worden toegepast (bijvoorbeeld: &quot;Linkerarm&quot;)."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

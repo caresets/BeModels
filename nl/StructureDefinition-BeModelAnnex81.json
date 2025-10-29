@@ -1,0 +1,439 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BeModelAnnex81",
+  "language" : "nl",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: StructureDefinition BeModelAnnex81</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Taal: en</p></div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"De logische naam van het element\">Naam</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Informatie over het gebruik van het element\">Markeringen</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum en maximum # keren dat het element kan voorkomen in de instance\">Kard.</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Referentie naar het type van het element\">Type</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additionele informatie over het element\">Omschrijving &amp; constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81\" title=\"Logisch model dat het model voor het voorstel en de goedkeuring van bijlage81 beschrijft\">BeModelAnnex81</a><a name=\"nl-BeModelAnnex81\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">BeModelAnnex81<br/><span style=\"font-weight:bold\">Instances van dit logisch model kunnen doel zijn van een Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.identifier\" title=\"Bedrijfsidentificatiecode van het voorstel / de goedkeuring in bijlage81\">identifier</a><a name=\"nl-BeModelAnnex81.identifier\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Bedrijfsidentificatiecode van het voorstel / de goedkeuring in bijlage81</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.shortCode\" title=\"Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld\">shortCode</a><a name=\"nl-BeModelAnnex81.shortCode\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Korte bedrijfsidentificatie waarmee de zorgverlener een recept kan vinden dat gekoppeld is aan een patiënt</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitief datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.recordedDate\" title=\"Datum van het coderen van de informatie door de Recorder.\">recordedDate</a><a name=\"nl-BeModelAnnex81.recordedDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Datum van het coderen van de informatie door de Recorder.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitief datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.creationDate\" title=\"Aanmaakdatum van het verwijzingsrecept. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.\">creationDate</a><a name=\"nl-BeModelAnnex81.creationDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Aanmaakdatum van het verwijzingsrecept. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.author\" title=\"Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en die verantwoordelijk is voor de inhoud ervan. De unieke identificatiecode moet het Nationaal Register Nummer (NISS) of bisnummer zijn.\">author</a><a name=\"nl-BeModelAnnex81.author\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet het Nationaal Register Nummer (NISS) of bisnummer zijn.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.status\" title=\"Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?\">status</a><a name=\"nl-BeModelAnnex81.status\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.statusReason\" title=\"Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)\">statusReason</a><a name=\"nl-BeModelAnnex81.statusReason\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.careRequested\" title=\"Gevraagde zorg (lijst van handelingen die elk beroep kan uitvoeren (geen nomenclatuurcode)) (snomed-ct code (procedure))\">careRequested</a><a name=\"nl-BeModelAnnex81.careRequested\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Gevraagde zorg (lijst van handelingen die elk beroep kan uitvoeren (geen nomenclatuurcode)) (snomed-ct code (procedure))</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.patient\" title=\"Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet het National Patient Registry Number (NISS) of de patiënt bis zijn.\">patient</a><a name=\"nl-BeModelAnnex81.patient\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">De identificatie van de patiënt. De unieke identificatie moet het Nationale Patiëntenregistratienummer (NISS) of de patiënt bis zijn.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.originRequestId\" title=\"Verwijzing naar het originele voorschrift waarop het voorschrift is gebaseerd (voorschriftId), zorgplan, vervolgpad, .... verwijzingId. Verwijzing naar het Zorgplan dat betrekking heeft op dit voorschrift.\">originRequestId</a><a name=\"nl-BeModelAnnex81.originRequestId\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Verwijzing naar het originele voorschrift waarop het voorschrift is gebaseerd (voorschriftId), zorgplan, vervolgpad, .... verwijzingId. Verwijzing naar het Zorgplan dat betrekking heeft op dit voorschrift.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitief datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.validationStartDate\" title=\"Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).\">validationStartDate</a><a name=\"nl-BeModelAnnex81.validationStartDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitief datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.validationEndDate\" title=\"Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)\">validationEndDate</a><a name=\"nl-BeModelAnnex81.validationEndDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.problem\" title=\"Reden voor het verzoek. Het probleem (code of referentie) dat de belangrijkste reden is voor dit voorschrift (voorbeeld: probleem dat het onvermogen van de patiënt rechtvaardigt om zijn medicijnen te beheren).\">problem</a><a name=\"nl-BeModelAnnex81.problem\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reden voor het verzoek. Het probleem (code of referentie) dat de belangrijkste reden is voor dit voorschrift (voorbeeld: probleem dat het onvermogen van de patiënt rechtvaardigt om zijn medicijnen te beheren).<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitief datatype\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.feedbackNeeded\" title=\"Booleaans - waar als de voorschrijver feedback vraagt. Als hij andere zorgverleners wil toevoegen, wordt dit in vrije tekst vermeld in de notitie. Hier standaard &quot;Waar&quot;.\">feedbackNeeded</a><a name=\"nl-BeModelAnnex81.feedbackNeeded\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Booleaans - waar als de voorschrijver feedback vraagt. Als hij andere zorgverleners wil toevoegen, wordt dit in vrije tekst vermeld in de notitie. Hier standaard &quot;Waar&quot;.</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legenda voor dit formaat\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentatie voor dit formaat</a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
+    "valueCode" : "can-be-target"
+  }],
+  "url" : "http://example.org/StructureDefinition/BeModelAnnex81",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:48+0000\\nPO-Revision-Date: 2025-10-21 10:48+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISICO/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Logical model describing the model for the Annex81 proposal and approval",
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://example.org/StructureDefinition/BeModelAnnex81",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
+    "element" : [{
+      "id" : "BeModelAnnex81",
+      "path" : "BeModelAnnex81",
+      "short" : "BeModelAnnex81",
+      "definition" : "Logisch model dat het model voor het voorstel en de goedkeuring van bijlage81 beschrijft",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "BeModelAnnex81.identifier",
+      "path" : "BeModelAnnex81.identifier",
+      "short" : "Bedrijfsidentificatiecode van het voorstel / de goedkeuring in bijlage81",
+      "definition" : "Bedrijfsidentificatiecode van het voorstel / de goedkeuring in bijlage81",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.identifier",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.shortCode",
+      "path" : "BeModelAnnex81.shortCode",
+      "short" : "Korte bedrijfsidentificatie waarmee de zorgverlener een recept kan vinden dat gekoppeld is aan een patiënt",
+      "definition" : "Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.shortCode",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.recordedDate",
+      "path" : "BeModelAnnex81.recordedDate",
+      "short" : "Datum van het coderen van de informatie door de Recorder.",
+      "definition" : "Datum van het coderen van de informatie door de Recorder.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.recordedDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.creationDate",
+      "path" : "BeModelAnnex81.creationDate",
+      "short" : "Aanmaakdatum van het verwijzingsrecept. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.",
+      "definition" : "Aanmaakdatum van het verwijzingsrecept. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.creationDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.author",
+      "path" : "BeModelAnnex81.author",
+      "short" : "De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet het Nationaal Register Nummer (NISS) of bisnummer zijn.",
+      "definition" : "Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en die verantwoordelijk is voor de inhoud ervan. De unieke identificatiecode moet het Nationaal Register Nummer (NISS) of bisnummer zijn.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.author",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.status",
+      "path" : "BeModelAnnex81.status",
+      "short" : "Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?",
+      "definition" : "Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.status",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.statusReason",
+      "path" : "BeModelAnnex81.statusReason",
+      "short" : "Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)",
+      "definition" : "Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.statusReason",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.careRequested",
+      "path" : "BeModelAnnex81.careRequested",
+      "short" : "Gevraagde zorg (lijst van handelingen die elk beroep kan uitvoeren (geen nomenclatuurcode)) (snomed-ct code (procedure))",
+      "definition" : "Gevraagde zorg (lijst van handelingen die elk beroep kan uitvoeren (geen nomenclatuurcode)) (snomed-ct code (procedure))",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.careRequested",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.patient",
+      "path" : "BeModelAnnex81.patient",
+      "short" : "De identificatie van de patiënt. De unieke identificatie moet het Nationale Patiëntenregistratienummer (NISS) of de patiënt bis zijn.",
+      "definition" : "Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet het National Patient Registry Number (NISS) of de patiënt bis zijn.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.patient",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.originRequestId",
+      "path" : "BeModelAnnex81.originRequestId",
+      "short" : "Verwijzing naar het originele voorschrift waarop het voorschrift is gebaseerd (voorschriftId), zorgplan, vervolgpad, .... verwijzingId. Verwijzing naar het Zorgplan dat betrekking heeft op dit voorschrift.",
+      "definition" : "Verwijzing naar het originele voorschrift waarop het voorschrift is gebaseerd (voorschriftId), zorgplan, vervolgpad, .... verwijzingId. Verwijzing naar het Zorgplan dat betrekking heeft op dit voorschrift.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.originRequestId",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationStartDate",
+      "path" : "BeModelAnnex81.validationStartDate",
+      "short" : "Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).",
+      "definition" : "Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.validationStartDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationEndDate",
+      "path" : "BeModelAnnex81.validationEndDate",
+      "short" : "Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)",
+      "definition" : "Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.validationEndDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.problem",
+      "path" : "BeModelAnnex81.problem",
+      "short" : "Reden voor het verzoek. Het probleem (code of referentie) dat de belangrijkste reden is voor dit voorschrift (voorbeeld: probleem dat het onvermogen van de patiënt rechtvaardigt om zijn medicijnen te beheren).",
+      "definition" : "Reden voor het verzoek. Het probleem (code of referentie) dat de belangrijkste reden is voor dit voorschrift (voorbeeld: probleem dat het onvermogen van de patiënt rechtvaardigt om zijn medicijnen te beheren).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelAnnex81.problem",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.feedbackNeeded",
+      "path" : "BeModelAnnex81.feedbackNeeded",
+      "short" : "Booleaans - waar als de voorschrijver feedback vraagt. Als hij andere zorgverleners wil toevoegen, wordt dit in vrije tekst vermeld in de notitie. Hier standaard \"Waar\".",
+      "definition" : "Booleaans - waar als de voorschrijver feedback vraagt. Als hij andere zorgverleners wil toevoegen, wordt dit in vrije tekst vermeld in de notitie. Hier standaard \"Waar\".",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.feedbackNeeded",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "BeModelAnnex81",
+      "path" : "BeModelAnnex81",
+      "short" : "BeModelAnnex81",
+      "definition" : "Logisch model dat het model voor het voorstel en de goedkeuring van bijlage81 beschrijft"
+    },
+    {
+      "id" : "BeModelAnnex81.identifier",
+      "path" : "BeModelAnnex81.identifier",
+      "short" : "Bedrijfsidentificatiecode van het voorstel / de goedkeuring in bijlage81",
+      "definition" : "Bedrijfsidentificatiecode van het voorstel / de goedkeuring in bijlage81",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.shortCode",
+      "path" : "BeModelAnnex81.shortCode",
+      "short" : "Korte bedrijfsidentificatie waarmee de zorgverlener een recept kan vinden dat gekoppeld is aan een patiënt",
+      "definition" : "Bedrijfscode waarmee de zorgverlener een recept kan vinden dat aan een patiënt is gekoppeld",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.recordedDate",
+      "path" : "BeModelAnnex81.recordedDate",
+      "short" : "Datum van het coderen van de informatie door de Recorder.",
+      "definition" : "Datum van het coderen van de informatie door de Recorder.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.creationDate",
+      "path" : "BeModelAnnex81.creationDate",
+      "short" : "Aanmaakdatum van het verwijzingsrecept. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.",
+      "definition" : "Aanmaakdatum van het verwijzingsrecept. Deze datum verandert niet tijdens het proces. Deze datum komt overeen met de eerste geregistreerdeDatum voor dit verwijzingsvoorschrift.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.author",
+      "path" : "BeModelAnnex81.author",
+      "short" : "De persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en de verantwoordelijkheid neemt voor de inhoud ervan. De unieke identificatiecode moet het Nationaal Register Nummer (NISS) of bisnummer zijn.",
+      "definition" : "Is de unieke identificatiecode van de persoon die het recept codeert (bijv. een arts, verpleegkundige, verloskundige of tandarts) en die verantwoordelijk is voor de inhoud ervan. De unieke identificatiecode moet het Nationaal Register Nummer (NISS) of bisnummer zijn.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.status",
+      "path" : "BeModelAnnex81.status",
+      "short" : "Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?",
+      "definition" : "Is de status van het verwijzingsvoorschrift (bijv. gepland, voltooid, gestopt, opgeschort, in behandeling, ....)?",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.statusReason",
+      "path" : "BeModelAnnex81.statusReason",
+      "short" : "Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)",
+      "definition" : "Geeft de reden voor de status van het verwijzingsvoorschrift (behandeling is gewijzigd, patiënt is allergisch, patiënt weigert, ...)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.careRequested",
+      "path" : "BeModelAnnex81.careRequested",
+      "short" : "Gevraagde zorg (lijst van handelingen die elk beroep kan uitvoeren (geen nomenclatuurcode)) (snomed-ct code (procedure))",
+      "definition" : "Gevraagde zorg (lijst van handelingen die elk beroep kan uitvoeren (geen nomenclatuurcode)) (snomed-ct code (procedure))",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.patient",
+      "path" : "BeModelAnnex81.patient",
+      "short" : "De identificatie van de patiënt. De unieke identificatie moet het Nationale Patiëntenregistratienummer (NISS) of de patiënt bis zijn.",
+      "definition" : "Is de unieke identificatiecode van de patiënt. De unieke identificatiecode moet het National Patient Registry Number (NISS) of de patiënt bis zijn.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.originRequestId",
+      "path" : "BeModelAnnex81.originRequestId",
+      "short" : "Verwijzing naar het originele voorschrift waarop het voorschrift is gebaseerd (voorschriftId), zorgplan, vervolgpad, .... verwijzingId. Verwijzing naar het Zorgplan dat betrekking heeft op dit voorschrift.",
+      "definition" : "Verwijzing naar het originele voorschrift waarop het voorschrift is gebaseerd (voorschriftId), zorgplan, vervolgpad, .... verwijzingId. Verwijzing naar het Zorgplan dat betrekking heeft op dit voorschrift.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationStartDate",
+      "path" : "BeModelAnnex81.validationStartDate",
+      "short" : "Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).",
+      "definition" : "Begindatum van de geldigheid van het recept (gecodeerd door de voorschrijver).",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationEndDate",
+      "path" : "BeModelAnnex81.validationEndDate",
+      "short" : "Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)",
+      "definition" : "Einddatum van de geldigheid van het recept (gecodeerd door de voorschrijver)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.problem",
+      "path" : "BeModelAnnex81.problem",
+      "short" : "Reden voor het verzoek. Het probleem (code of referentie) dat de belangrijkste reden is voor dit voorschrift (voorbeeld: probleem dat het onvermogen van de patiënt rechtvaardigt om zijn medicijnen te beheren).",
+      "definition" : "Reden voor het verzoek. Het probleem (code of referentie) dat de belangrijkste reden is voor dit voorschrift (voorbeeld: probleem dat het onvermogen van de patiënt rechtvaardigt om zijn medicijnen te beheren).",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.feedbackNeeded",
+      "path" : "BeModelAnnex81.feedbackNeeded",
+      "short" : "Booleaans - waar als de voorschrijver feedback vraagt. Als hij andere zorgverleners wil toevoegen, wordt dit in vrije tekst vermeld in de notitie. Hier standaard \"Waar\".",
+      "definition" : "Booleaans - waar als de voorschrijver feedback vraagt. Als hij andere zorgverleners wil toevoegen, wordt dit in vrije tekst vermeld in de notitie. Hier standaard \"Waar\".",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  }
+}

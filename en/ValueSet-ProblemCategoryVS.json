@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemCategoryVS",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ProblemCategoryVS</b></p><a name=\"ProblemCategoryVS\"> </a><a name=\"hcProblemCategoryVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url" : "http://example.org/ValueSet/ProblemCategoryVS",
+  "version" : "0.1.0",
+  "name" : "ProblemCategoryVS",
+  "title" : "Problem Category Value Set",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RIZIV/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Category of the problem"
+}

@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.org/ValueSet/ProblemCategoryVS,0.1.0,draft,,ProblemCategoryVS,Problem Category Value Set,"Category of the problem","StructureDefinition/BeModelProblem",
+http://example.org/ValueSet/ProblemCodeVS,0.1.0,draft,,ProblemCodeVS,Problem Code Value Set,"Code of the problem","StructureDefinition/BeModelProblem",
+http://example.org/ValueSet/ProblemDiseaseCourseVS,0.1.0,draft,,ProblemDiseaseCourseVS,Condition Disease Course Value Set,"Condition Disease Course","StructureDefinition/BeModelProblem","SCT"

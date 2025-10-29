@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="BeModelNursingPrescription"/>
+  <language value="fr"/>
+  <text>
+    <status value="extensions"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : DéfinitionStructure BeModelNursingPrescription</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : en</p></div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Le nom logique de lélément">Nom</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Drapeaux</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description et contraintes</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-BeModelNursingPrescription-definitions.html#BeModelNursingPrescription" title="Modèle de données pour l'orientation des prescriptions infirmières.">BeModelNursingPrescription</a><a name="fr-BeModelNursingPrescription"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-BeModelReferralPrescription.html">BeModelReferralPrescription</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">BeModelNursingPrescription<br/><br/>Elements defined in Ancestors:<a href="StructureDefinition-BeModelReferralPrescription.html" title="Business identifier of the request">identifier</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Business code allowing the healthcare professional to find a prescription associated with a patient">shortCode</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Date of recording of the information by the Recorder.">recordedDate</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Date of creation of the referral prescription. This date will not change throughout the process. This date corresponds to the first recordedDate recorded for this referral prescription.">creationDate</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Is the unique identifier of the patient. The unique identifier must be: NISS, National Registry Number or Bis Patient">patient</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Is the unique identifier of the person who encodes the prescription (e.g. a doctor, nurse, midwife or dentist) and takes responsibility for their content. The unique identifier must be: NISS, National Registry Number or Bis Requester">author</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Is the status of the referral prescription (e.g. planned, complete, stopped, suspended, in progress, ...)">status</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Gives the reason for the status of the referral prescription (treatment has been changed, patient is allergic, patient refuses, ...)">statusReason</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Type of care requested (e.g. 'Compression therapy', 'Sample collection', 'CT Scan').">careRequested</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Category of the requested care (nursing, radiology, ...)">discipline</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Additional details on the requested care">description</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Type of the request or prescription ('Prescription' or 'Proposal').">type</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Reference to the ID of the original request (useful when the request is an extension of another one).">originRequestId</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Start date of the prescription validity (encoded by the prescriber).">validityStartDate</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="End date of the prescription validity (encoded by the prescriber)">validityEndDate</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Medical problem or clinical context related to this request (for example: 'Open wound', 'Broken leg').">problem</a>, <a href="StructureDefinition-BeModelReferralPrescription.html" title="Anatomical location where the treatment should be applied (for example: 'Left arm').">bodyLocation</a><br/><span style="font-weight:bold">Instances of this logical model can be the target of a Reference</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Type de donnée primitif" class="hierarchy"/> <a href="StructureDefinition-BeModelNursingPrescription-definitions.html#BeModelNursingPrescription.feedbackNeeded" title="Indicateur de suivi (booléen) précisant si un retour d'information est attendu de la part du médecin sur ce traitement.">feedbackNeeded</a><a name="fr-BeModelNursingPrescription.feedbackNeeded"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Indicateur de suivi (booléen) précisant si un retour d'information est attendu de la part du médecin sur ce traitement.</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Type de donnée" class="hierarchy"/> <a href="StructureDefinition-BeModelNursingPrescription-definitions.html#BeModelNursingPrescription.generalRemarks" title="Remarques générales concernant le traitement ou la demande.">generalRemarks</a><a name="fr-BeModelNursingPrescription.generalRemarks"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Remarques générales concernant le traitement ou la demande.<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Type de donnée" class="hierarchy"/> <a href="StructureDefinition-BeModelNursingPrescription-definitions.html#BeModelNursingPrescription.contraIndications" title="Contre-indications médicales (par exemple, &quot;allergie au latex&quot;). 103306004 : 'Contre-indication à (x)'">contraIndications</a><a name="fr-BeModelNursingPrescription.contraIndications"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Contre-indications médicales (par exemple, &quot;allergie au latex&quot;). 103306004 : &quot;Contre-indication à (x)&quot;</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Type de donnée" class="hierarchy"/> <a href="StructureDefinition-BeModelNursingPrescription-definitions.html#BeModelNursingPrescription.medicalReason" title="Raisons médicales de la prescription (par exemple : &quot;Plaie infectée nécessitant un suivi&quot;). 410666004 : 'Raison pour (x)'">medicalReason</a><a name="fr-BeModelNursingPrescription.medicalReason"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Annotation">Annotation</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Raisons médicales de la prescription (par exemple : &quot;Plaie infectée nécessitant un suivi&quot;). 410666004 : &quot;Raison pour (x)&quot;</td></tr>
+<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics">
+    <valueCode value="can-be-target"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics">
+    <valueCode value="can-be-target"/>
+  </extension>
+  <url value="http://example.org/StructureDefinition/BeModelNursingPrescription"/>
+  <version value="0.1.0"/>
+  <name value="Project-Id-Version: FHIR\nReport-Msgid-Bugs-To: you@example.com\nPOT-Creation-Date: 2025-10-21 10:42+0000\nPO-Revision-Date: 2025-10-21 10:42+0000\nLanguage: FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"/>
+  <status value="draft"/>
+  <date value="2025-10-29T07:49:40+00:00"/>
+  <publisher value="RISQUE/INAMI"/>
+  <contact>
+    <name value="RIZIV/INAMI"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.org/example-publisher"/>
+    </telecom>
+  </contact>
+  <description value="Data model for the nursing prescription referral."/>
+  <fhirVersion value="4.0.1"/>
+  <kind value="logical"/>
+  <abstract value="false"/>
+  <type value="http://example.org/StructureDefinition/BeModelNursingPrescription"/>
+  <baseDefinition value="http://example.org/StructureDefinition/BeModelReferralPrescription"/>
+  <derivation value="specialization"/>
+  <snapshot>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
+      <valueString value="0.1.0"/>
+    </extension>
+    <element id="BeModelNursingPrescription">
+      <path value="BeModelNursingPrescription"/>
+      <short value="BeModelNursingPrescription"/>
+      <definition value="Modèle de données pour l'orientation des prescriptions infirmières."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Base"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <isModifier value="false"/>
+    </element>
+    <element id="BeModelNursingPrescription.identifier">
+      <path value="BeModelNursingPrescription.identifier"/>
+      <short value="Identifiant commercial de la demande"/>
+      <definition value="Identifiant commercial de la demande"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.identifier"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.shortCode">
+      <path value="BeModelNursingPrescription.shortCode"/>
+      <short value="Code commercial permettant au professionnel de la santé de trouver une prescription associée à un patient"/>
+      <definition value="Code commercial permettant au professionnel de la santé de trouver une prescription associée à un patient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.shortCode"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.recordedDate">
+      <path value="BeModelNursingPrescription.recordedDate"/>
+      <short value="Date d'enregistrement de l'information par l'enregistreur."/>
+      <definition value="Date d'enregistrement de l'information par l'enregistreur."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.recordedDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.creationDate">
+      <path value="BeModelNursingPrescription.creationDate"/>
+      <short value="Date de création de la prescription de référence"/>
+      <definition value="Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de renvoi."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.creationDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.patient">
+      <path value="BeModelNursingPrescription.patient"/>
+      <short value="Identification du patient. L'identifiant unique doit être : NISS, numéro de registre national ou Bis Patient"/>
+      <definition value="Il s'agit de l'identifiant unique du patient. L'identifiant unique doit être : NISS, numéro de registre national ou Bis Patient"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.patient"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.author">
+      <path value="BeModelNursingPrescription.author"/>
+      <short value="La personne qui code la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui assume la responsabilité de son contenu. L'identifiant unique doit être : NISS, numéro de registre national ou Bis Requester"/>
+      <definition value="Il s'agit de l'identifiant unique de la personne qui code la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui assume la responsabilité de son contenu. L'identifiant unique doit être : NISS, numéro de registre national ou Bis Requester."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.author"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.status">
+      <path value="BeModelNursingPrescription.status"/>
+      <short value="Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....)."/>
+      <definition value="Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ...)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.status"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.statusReason">
+      <path value="BeModelNursingPrescription.statusReason"/>
+      <short value="Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...)."/>
+      <definition value="Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.statusReason"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.careRequested">
+      <path value="BeModelNursingPrescription.careRequested"/>
+      <short value="Type de soins demandés (par exemple, &quot;thérapie par compression&quot;, &quot;prélèvement d'échantillons&quot;, tomodensitométrie)."/>
+      <definition value="Type de soins demandés (par exemple, &quot;thérapie par compression&quot;, &quot;prélèvement d'échantillons&quot;, &quot;tomodensitométrie&quot;)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.careRequested"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.discipline">
+      <path value="BeModelNursingPrescription.discipline"/>
+      <short value="Catégorie de soins demandés (soins infirmiers, radiologie, ...)"/>
+      <definition value="Catégorie de soins demandés (soins infirmiers, radiologie, ...)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.discipline"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.description">
+      <path value="BeModelNursingPrescription.description"/>
+      <short value="Détails supplémentaires sur les soins demandés"/>
+      <definition value="Détails supplémentaires sur les soins demandés"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.description"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.type">
+      <path value="BeModelNursingPrescription.type"/>
+      <short value="Type de demande ou de prescription (&quot;Prescription&quot; ou &quot;Proposition&quot;)."/>
+      <definition value="Type de demande ou de prescription (&quot;Prescription&quot; ou &quot;Proposition&quot;)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.type"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.originRequestId">
+      <path value="BeModelNursingPrescription.originRequestId"/>
+      <short value="Référence à l'ID de la demande originale (utile lorsque la demande est une extension d'une autre demande)."/>
+      <definition value="Référence à l'ID de la demande originale (utile lorsque la demande est une extension d'une autre demande)."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.originRequestId"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Identifier"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.validityStartDate">
+      <path value="BeModelNursingPrescription.validityStartDate"/>
+      <short value="Date de début de validité de la prescription (encodée par le prescripteur)."/>
+      <definition value="Date de début de validité de la prescription (encodée par le prescripteur)."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.validityStartDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.validityEndDate">
+      <path value="BeModelNursingPrescription.validityEndDate"/>
+      <short value="Date de fin de validité de la prescription (encodée par le prescripteur)"/>
+      <definition value="Date de fin de validité de la prescription (encodée par le prescripteur)"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelReferralPrescription.validityEndDate"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.problem">
+      <path value="BeModelNursingPrescription.problem"/>
+      <short value="Problème médical ou contexte clinique lié à cette demande (par exemple : &quot;Plaie ouverte&quot;, &quot;Jambe cassée&quot;)."/>
+      <definition value="Problème médical ou contexte clinique lié à cette demande (par exemple : &quot;Plaie ouverte&quot;, &quot;Jambe cassée&quot;)."/>
+      <min value="1"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelReferralPrescription.problem"/>
+        <min value="1"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.bodyLocation">
+      <path value="BeModelNursingPrescription.bodyLocation"/>
+      <short value="Lieu anatomique où le traitement doit être appliqué (par exemple : &quot;Bras gauche&quot;)."/>
+      <definition value="Lieu anatomique où le traitement doit être appliqué (par exemple : &quot;Bras gauche&quot;)."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelReferralPrescription.bodyLocation"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="CodeableConcept"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.feedbackNeeded">
+      <path value="BeModelNursingPrescription.feedbackNeeded"/>
+      <short value="Indicateur de suivi (booléen) précisant si un retour d'information est attendu de la part du médecin sur ce traitement."/>
+      <definition value="Indicateur de suivi (booléen) précisant si un retour d'information est attendu de la part du médecin sur ce traitement."/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelNursingPrescription.feedbackNeeded"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="boolean"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.generalRemarks">
+      <path value="BeModelNursingPrescription.generalRemarks"/>
+      <short value="Remarques générales concernant le traitement ou la demande."/>
+      <definition value="Remarques générales concernant le traitement ou la demande."/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="BeModelNursingPrescription.generalRemarks"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.contraIndications">
+      <path value="BeModelNursingPrescription.contraIndications"/>
+      <short value="Contre-indications médicales (par exemple, &quot;allergie au latex&quot;). 103306004 : &quot;Contre-indication à (x)&quot;"/>
+      <definition value="Contre-indications médicales (par exemple, &quot;allergie au latex&quot;). 103306004 : 'Contre-indication à (x)'"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelNursingPrescription.contraIndications"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.medicalReason">
+      <path value="BeModelNursingPrescription.medicalReason"/>
+      <short value="Raisons médicales de la prescription (par exemple : &quot;Plaie infectée nécessitant un suivi&quot;). 410666004 : &quot;Raison pour (x)&quot;"/>
+      <definition value="Raisons médicales de la prescription (par exemple : &quot;Plaie infectée nécessitant un suivi&quot;). 410666004 : 'Raison pour (x)'"/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="BeModelNursingPrescription.medicalReason"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+  </snapshot>
+  <differential>
+    <element id="BeModelNursingPrescription">
+      <path value="BeModelNursingPrescription"/>
+      <short value="BeModelNursingPrescription"/>
+      <definition value="Modèle de données pour l'orientation des prescriptions infirmières."/>
+    </element>
+    <element id="BeModelNursingPrescription.feedbackNeeded">
+      <path value="BeModelNursingPrescription.feedbackNeeded"/>
+      <short value="Indicateur de suivi (booléen) précisant si un retour d'information est attendu de la part du médecin sur ce traitement."/>
+      <definition value="Indicateur de suivi (booléen) précisant si un retour d'information est attendu de la part du médecin sur ce traitement."/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="boolean"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.generalRemarks">
+      <path value="BeModelNursingPrescription.generalRemarks"/>
+      <short value="Remarques générales concernant le traitement ou la demande."/>
+      <definition value="Remarques générales concernant le traitement ou la demande."/>
+      <min value="0"/>
+      <max value="*"/>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.contraIndications">
+      <path value="BeModelNursingPrescription.contraIndications"/>
+      <short value="Contre-indications médicales (par exemple, &quot;allergie au latex&quot;). 103306004 : &quot;Contre-indication à (x)&quot;"/>
+      <definition value="Contre-indications médicales (par exemple, &quot;allergie au latex&quot;). 103306004 : 'Contre-indication à (x)'"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+    <element id="BeModelNursingPrescription.medicalReason">
+      <path value="BeModelNursingPrescription.medicalReason"/>
+      <short value="Raisons médicales de la prescription (par exemple : &quot;Plaie infectée nécessitant un suivi&quot;). 410666004 : &quot;Raison pour (x)&quot;"/>
+      <definition value="Raisons médicales de la prescription (par exemple : &quot;Plaie infectée nécessitant un suivi&quot;). 410666004 : 'Raison pour (x)'"/>
+      <min value="0"/>
+      <max value="1"/>
+      <type>
+        <code value="Annotation"/>
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

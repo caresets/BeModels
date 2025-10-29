@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.org/CodeSystem/BeSafeShareGlossary",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BeSafeShareGlossary",
+      "title" : "CodeSystem for common CareSets glossary",
+      "description" : "This code system defines concepts used in the BeSafe CareSets for common glossary terms."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemCodeVS",
+  "language" : "nl",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: ValueSet ProblemCodeVS</b></p><a name=\"nl-ProblemCodeVS\"> </a><a name=\"nl-hcProblemCodeVS\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Taal: en</p></div><p>Deze waardelijst includeert codes gebaseerd op de volgende regels:</p><ul/></div>"
+  },
+  "url" : "http://example.org/ValueSet/ProblemCodeVS",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:50+0000\\nPO-Revision-Date: 2025-10-21 10:50+0000\\nLanguage: NL\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "title" : "Probleemcode Waardeset",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISICO/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Code van het probleem"
+}

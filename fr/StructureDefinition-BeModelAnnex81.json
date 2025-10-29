@@ -1,0 +1,439 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BeModelAnnex81",
+  "language" : "fr",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : DéfinitionStructure BeModelAnnex81</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : en</p></div><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Le nom logique de lélément\">Nom</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Drapeaux</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description et contraintes</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81\" title=\"Modèle logique décrivant le modèle de proposition et d'approbation de l'annexe 81\">BeModelAnnex81</a><a name=\"fr-BeModelAnnex81\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">BeModelAnnex81<br/><span style=\"font-weight:bold\">Instances of this logical model can be the target of a Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.identifier\" title=\"Identifiant commercial de la proposition / de l'approbation de l'annexe81\">identifier</a><a name=\"fr-BeModelAnnex81.identifier\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identifiant commercial de la proposition / de l'approbation de l'annexe81</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.shortCode\" title=\"Code &quot;entreprise&quot; permettant au professionnel de la santé de trouver une prescription associée à un patient\">shortCode</a><a name=\"fr-BeModelAnnex81.shortCode\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identifiant commercial court permettant au professionnel de la santé de retrouver une ordonnance associée à un patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée primitif\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.recordedDate\" title=\"Date d'encodage de l'information par l'enregistreur.\">recordedDate</a><a name=\"fr-BeModelAnnex81.recordedDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date d'encodage de l'information par l'enregistreur.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée primitif\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.creationDate\" title=\"Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de référence.\">creationDate</a><a name=\"fr-BeModelAnnex81.creationDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de référence.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.author\" title=\"Il s'agit de l'identifiant unique de la personne qui code la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui est responsable de son contenu. L'identifiant unique doit être le numéro de registre national (NISS) ou le numéro bis.\">author</a><a name=\"fr-BeModelAnnex81.author\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">La personne qui encode la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui assume la responsabilité de son contenu. L'identifiant unique doit être le numéro de registre national (NISS) ou le numéro bis.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.status\" title=\"Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....).\">status</a><a name=\"fr-BeModelAnnex81.status\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....).</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.statusReason\" title=\"Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...).\">statusReason</a><a name=\"fr-BeModelAnnex81.statusReason\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...).</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.careRequested\" title=\"Type de soins demandés (liste des actes que chaque profession peut faire (pas de code de nomenclature)) (code snomed-ct (procédure))\">careRequested</a><a name=\"fr-BeModelAnnex81.careRequested\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Type de soins demandés (liste des actes que chaque profession peut effectuer (pas de code de nomenclature)) (code snomed-ct (procédure))</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.patient\" title=\"Est l'identifiant unique du patient. L'identifiant unique doit être le numéro du registre national des patients (NISS) ou le numéro bis du patient.\">patient</a><a name=\"fr-BeModelAnnex81.patient\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">L'identification du patient. L'identifiant unique doit être le numéro du registre national des patients (NISS) ou le numéro bis du patient.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.originRequestId\" title=\"Référence à la prescription originale sur laquelle la prescription est basée (prescriptionId), au plan de soins, au chemin de suivi, .... referenceId. Référence au plan de soins qui concerne cette prescription.\">originRequestId</a><a name=\"fr-BeModelAnnex81.originRequestId\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Référence à la prescription originale sur laquelle la prescription est basée (prescriptionId), au plan de soins, au chemin de suivi, .... referenceId. Référence au plan de soins qui concerne cette prescription.</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée primitif\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.validationStartDate\" title=\"Date de début de validité de la prescription (encodée par le prescripteur).\">validationStartDate</a><a name=\"fr-BeModelAnnex81.validationStartDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date de début de validité de la prescription (encodée par le prescripteur).</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée primitif\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.validationEndDate\" title=\"Date de fin de validité de la prescription (encodée par le prescripteur)\">validationEndDate</a><a name=\"fr-BeModelAnnex81.validationEndDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date de fin de validité de la prescription (encodée par le prescripteur)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Type de donnée\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.problem\" title=\"Motif de la demande. Le problème (code ou référence) qui est la raison principale de cette prescription (exemple : problème justifiant l'incapacité du patient à gérer ses médicaments).\">problem</a><a name=\"fr-BeModelAnnex81.problem\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Motif de la demande. Le problème (code ou référence) qui est la raison principale de cette prescription (exemple : problème justifiant l'incapacité du patient à gérer ses médicaments).<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Type de donnée primitif\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelAnnex81-definitions.html#BeModelAnnex81.feedbackNeeded\" title=\"Booléen - vrai si le prescripteur demande un retour d'information. S'il souhaite ajouter d'autres prestataires de soins, cela sera mentionné en texte libre dans la note. La valeur par défaut est &quot;True&quot;\">feedbackNeeded</a><a name=\"fr-BeModelAnnex81.feedbackNeeded\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Booléen - vrai si le prescripteur demande un retour d'information. S'il souhaite ajouter d'autres prestataires de soins, cela sera mentionné en texte libre dans la note. La valeur par défaut est &quot;True&quot;</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
+    "valueCode" : "can-be-target"
+  }],
+  "url" : "http://example.org/StructureDefinition/BeModelAnnex81",
+  "version" : "0.1.0",
+  "name" : "Project-Id-Version: FHIR\\nReport-Msgid-Bugs-To: you@example.com\\nPOT-Creation-Date: 2025-10-21 10:41+0000\\nPO-Revision-Date: 2025-10-21 10:41+0000\\nLanguage: FR\\nMIME-Version: 1.0\\nContent-Type: text/plain; charset=UTF-8\\nContent-Transfer-Encoding: 8bit\\n",
+  "status" : "draft",
+  "date" : "2025-10-29T07:49:40+00:00",
+  "publisher" : "RISQUE/INAMI",
+  "contact" : [{
+    "name" : "RIZIV/INAMI",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "Logical model describing the model for the Annex81 proposal and approval",
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "http://example.org/StructureDefinition/BeModelAnnex81",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
+    "element" : [{
+      "id" : "BeModelAnnex81",
+      "path" : "BeModelAnnex81",
+      "short" : "BeModelAnnex81",
+      "definition" : "Modèle logique décrivant le modèle de proposition et d'approbation de l'annexe 81",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "BeModelAnnex81.identifier",
+      "path" : "BeModelAnnex81.identifier",
+      "short" : "Identifiant commercial de la proposition / de l'approbation de l'annexe81",
+      "definition" : "Identifiant commercial de la proposition / de l'approbation de l'annexe81",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.identifier",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.shortCode",
+      "path" : "BeModelAnnex81.shortCode",
+      "short" : "Identifiant commercial court permettant au professionnel de la santé de retrouver une ordonnance associée à un patient",
+      "definition" : "Code \"entreprise\" permettant au professionnel de la santé de trouver une prescription associée à un patient",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.shortCode",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.recordedDate",
+      "path" : "BeModelAnnex81.recordedDate",
+      "short" : "Date d'encodage de l'information par l'enregistreur.",
+      "definition" : "Date d'encodage de l'information par l'enregistreur.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.recordedDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.creationDate",
+      "path" : "BeModelAnnex81.creationDate",
+      "short" : "Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de référence.",
+      "definition" : "Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de référence.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.creationDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.author",
+      "path" : "BeModelAnnex81.author",
+      "short" : "La personne qui encode la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui assume la responsabilité de son contenu. L'identifiant unique doit être le numéro de registre national (NISS) ou le numéro bis.",
+      "definition" : "Il s'agit de l'identifiant unique de la personne qui code la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui est responsable de son contenu. L'identifiant unique doit être le numéro de registre national (NISS) ou le numéro bis.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.author",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.status",
+      "path" : "BeModelAnnex81.status",
+      "short" : "Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....).",
+      "definition" : "Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....).",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.status",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.statusReason",
+      "path" : "BeModelAnnex81.statusReason",
+      "short" : "Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...).",
+      "definition" : "Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.statusReason",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.careRequested",
+      "path" : "BeModelAnnex81.careRequested",
+      "short" : "Type de soins demandés (liste des actes que chaque profession peut effectuer (pas de code de nomenclature)) (code snomed-ct (procédure))",
+      "definition" : "Type de soins demandés (liste des actes que chaque profession peut faire (pas de code de nomenclature)) (code snomed-ct (procédure))",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.careRequested",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.patient",
+      "path" : "BeModelAnnex81.patient",
+      "short" : "L'identification du patient. L'identifiant unique doit être le numéro du registre national des patients (NISS) ou le numéro bis du patient.",
+      "definition" : "Est l'identifiant unique du patient. L'identifiant unique doit être le numéro du registre national des patients (NISS) ou le numéro bis du patient.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.patient",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.originRequestId",
+      "path" : "BeModelAnnex81.originRequestId",
+      "short" : "Référence à la prescription originale sur laquelle la prescription est basée (prescriptionId), au plan de soins, au chemin de suivi, .... referenceId. Référence au plan de soins qui concerne cette prescription.",
+      "definition" : "Référence à la prescription originale sur laquelle la prescription est basée (prescriptionId), au plan de soins, au chemin de suivi, .... referenceId. Référence au plan de soins qui concerne cette prescription.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.originRequestId",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationStartDate",
+      "path" : "BeModelAnnex81.validationStartDate",
+      "short" : "Date de début de validité de la prescription (encodée par le prescripteur).",
+      "definition" : "Date de début de validité de la prescription (encodée par le prescripteur).",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.validationStartDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationEndDate",
+      "path" : "BeModelAnnex81.validationEndDate",
+      "short" : "Date de fin de validité de la prescription (encodée par le prescripteur)",
+      "definition" : "Date de fin de validité de la prescription (encodée par le prescripteur)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.validationEndDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.problem",
+      "path" : "BeModelAnnex81.problem",
+      "short" : "Motif de la demande. Le problème (code ou référence) qui est la raison principale de cette prescription (exemple : problème justifiant l'incapacité du patient à gérer ses médicaments).",
+      "definition" : "Motif de la demande. Le problème (code ou référence) qui est la raison principale de cette prescription (exemple : problème justifiant l'incapacité du patient à gérer ses médicaments).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelAnnex81.problem",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.feedbackNeeded",
+      "path" : "BeModelAnnex81.feedbackNeeded",
+      "short" : "Booléen - vrai si le prescripteur demande un retour d'information. S'il souhaite ajouter d'autres prestataires de soins, cela sera mentionné en texte libre dans la note. La valeur par défaut est \"True\"",
+      "definition" : "Booléen - vrai si le prescripteur demande un retour d'information. S'il souhaite ajouter d'autres prestataires de soins, cela sera mentionné en texte libre dans la note. La valeur par défaut est \"True\"",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelAnnex81.feedbackNeeded",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "BeModelAnnex81",
+      "path" : "BeModelAnnex81",
+      "short" : "BeModelAnnex81",
+      "definition" : "Modèle logique décrivant le modèle de proposition et d'approbation de l'annexe 81"
+    },
+    {
+      "id" : "BeModelAnnex81.identifier",
+      "path" : "BeModelAnnex81.identifier",
+      "short" : "Identifiant commercial de la proposition / de l'approbation de l'annexe81",
+      "definition" : "Identifiant commercial de la proposition / de l'approbation de l'annexe81",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.shortCode",
+      "path" : "BeModelAnnex81.shortCode",
+      "short" : "Identifiant commercial court permettant au professionnel de la santé de retrouver une ordonnance associée à un patient",
+      "definition" : "Code \"entreprise\" permettant au professionnel de la santé de trouver une prescription associée à un patient",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.recordedDate",
+      "path" : "BeModelAnnex81.recordedDate",
+      "short" : "Date d'encodage de l'information par l'enregistreur.",
+      "definition" : "Date d'encodage de l'information par l'enregistreur.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.creationDate",
+      "path" : "BeModelAnnex81.creationDate",
+      "short" : "Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de référence.",
+      "definition" : "Date de création de la prescription de référence. Cette date ne changera pas au cours du processus. Cette date correspond à la première date enregistrée pour cette prescription de référence.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.author",
+      "path" : "BeModelAnnex81.author",
+      "short" : "La personne qui encode la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui assume la responsabilité de son contenu. L'identifiant unique doit être le numéro de registre national (NISS) ou le numéro bis.",
+      "definition" : "Il s'agit de l'identifiant unique de la personne qui code la prescription (par exemple, un médecin, une infirmière, une sage-femme ou un dentiste) et qui est responsable de son contenu. L'identifiant unique doit être le numéro de registre national (NISS) ou le numéro bis.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.status",
+      "path" : "BeModelAnnex81.status",
+      "short" : "Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....).",
+      "definition" : "Le statut de la prescription d'orientation (par exemple, prévu, complet, arrêté, suspendu, en cours, ....).",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.statusReason",
+      "path" : "BeModelAnnex81.statusReason",
+      "short" : "Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...).",
+      "definition" : "Indique la raison du statut de la prescription de référence (le traitement a été modifié, le patient est allergique, le patient refuse, ...).",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.careRequested",
+      "path" : "BeModelAnnex81.careRequested",
+      "short" : "Type de soins demandés (liste des actes que chaque profession peut effectuer (pas de code de nomenclature)) (code snomed-ct (procédure))",
+      "definition" : "Type de soins demandés (liste des actes que chaque profession peut faire (pas de code de nomenclature)) (code snomed-ct (procédure))",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.patient",
+      "path" : "BeModelAnnex81.patient",
+      "short" : "L'identification du patient. L'identifiant unique doit être le numéro du registre national des patients (NISS) ou le numéro bis du patient.",
+      "definition" : "Est l'identifiant unique du patient. L'identifiant unique doit être le numéro du registre national des patients (NISS) ou le numéro bis du patient.",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.originRequestId",
+      "path" : "BeModelAnnex81.originRequestId",
+      "short" : "Référence à la prescription originale sur laquelle la prescription est basée (prescriptionId), au plan de soins, au chemin de suivi, .... referenceId. Référence au plan de soins qui concerne cette prescription.",
+      "definition" : "Référence à la prescription originale sur laquelle la prescription est basée (prescriptionId), au plan de soins, au chemin de suivi, .... referenceId. Référence au plan de soins qui concerne cette prescription.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationStartDate",
+      "path" : "BeModelAnnex81.validationStartDate",
+      "short" : "Date de début de validité de la prescription (encodée par le prescripteur).",
+      "definition" : "Date de début de validité de la prescription (encodée par le prescripteur).",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.validationEndDate",
+      "path" : "BeModelAnnex81.validationEndDate",
+      "short" : "Date de fin de validité de la prescription (encodée par le prescripteur)",
+      "definition" : "Date de fin de validité de la prescription (encodée par le prescripteur)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.problem",
+      "path" : "BeModelAnnex81.problem",
+      "short" : "Motif de la demande. Le problème (code ou référence) qui est la raison principale de cette prescription (exemple : problème justifiant l'incapacité du patient à gérer ses médicaments).",
+      "definition" : "Motif de la demande. Le problème (code ou référence) qui est la raison principale de cette prescription (exemple : problème justifiant l'incapacité du patient à gérer ses médicaments).",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelAnnex81.feedbackNeeded",
+      "path" : "BeModelAnnex81.feedbackNeeded",
+      "short" : "Booléen - vrai si le prescripteur demande un retour d'information. S'il souhaite ajouter d'autres prestataires de soins, cela sera mentionné en texte libre dans la note. La valeur par défaut est \"True\"",
+      "definition" : "Booléen - vrai si le prescripteur demande un retour d'information. S'il souhaite ajouter d'autres prestataires de soins, cela sera mentionné en texte libre dans la note. La valeur par défaut est \"True\"",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  }
+}
